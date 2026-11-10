@@ -3907,6 +3907,25 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
             background: rgba(16, 185, 129, 0.08);
             cursor: default;
         }}
+        .btn-trt-repo-link {{
+            padding: 4px 6px;
+            font-size: 0.8rem;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+            background: var(--bg-card);
+            color: var(--text-muted);
+            cursor: pointer;
+            transition: all 0.15s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }}
+        .btn-trt-repo-link:hover {{
+            border-color: #38bdf8;
+            color: #38bdf8;
+            background: rgba(56, 189, 248, 0.1);
+        }}
         .btn-trt-delete {{
             background: transparent;
             border: none;
@@ -4078,16 +4097,16 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
 
         <div class="sidebar-trt-body">
             <!-- CARD DO TRIBUNAL ATUALMENTE ATIVO -->
-            <div class="sidebar-trt-current-card">
+            <div class="sidebar-trt-current-card" id="sidebar-current-card">
                 <div class="current-card-header">
                     <span class="current-pill">● TRIBUNAL ATIVO</span>
-                    <span class="current-badge">TRT-5 (BA)</span>
+                    <span class="current-badge" id="sidebar-current-badge">TRT-5 (BA)</span>
                 </div>
-                <h3>Tribunal Regional do Trabalho da 4ª Região</h3>
+                <h3 id="sidebar-current-nome">Tribunal Regional do Trabalho da 4ª Região</h3>
                 <div class="current-details">
-                    <span>🏢 Banca: <strong>FCC</strong></span>
-                    <span>🎯 Metas: <strong>177</strong></span>
-                    <span>📚 Cadernos: <strong>10 Matérias</strong></span>
+                    <span>🏢 Banca: <strong id="sidebar-current-banca">FCC</strong></span>
+                    <span>🎯 Metas: <strong id="sidebar-current-metas">177</strong></span>
+                    <span>📚 Cadernos: <strong id="sidebar-current-materias">10 Matérias</strong></span>
                 </div>
                 <div class="current-actions">
                     <button class="btn-sidebar-quick" onclick="abrirVisaoQuadro(); fecharSidebarTRT();">📊 Ir ao Quadro</button>
@@ -4408,13 +4427,13 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
             <div class="quadro-header-banner" style="border-left-color: var(--accent-red);">
                 <div class="quadro-header-info">
                     <h2>📋 Diagnóstico do Edital: O que Falta</h2>
-                    <p>Comparação completa entre o Guia Oficial do TRT-5 (208 Metas) e a sua pasta Cadernos-Completos.</p>
+                    <p>Comparação completa entre o Guia Oficial do TRT-5 (208 Metas) e a sua pasta METAS.</p>
                 </div>
             </div>
 
             <div class="diag-card">
-                <div class="diag-title" style="color:var(--accent-red);">❌ Disciplinas do PDF Ausentes na pasta Cadernos-Completos (48 Metas Faltando)</div>
-                <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:12px;">Estas matérias constam no Guia do TRT-5, mas ainda não possuem arquivo compilado na pasta <code>Cadernos-Completos/</code>:</p>
+                <div class="diag-title" style="color:var(--accent-red);">❌ Disciplinas do PDF Ausentes na pasta METAS (48 Metas Faltando)</div>
+                <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:12px;">Estas matérias constam no Guia do TRT-5, mas ainda não possuem arquivo compilado na pasta <code>METAS/</code>:</p>
                 <div style="display:flex; flex-direction:column; gap:8px;" id="lista-disciplinas-ausentes-el">
                     <!-- Gerado via JS -->
                 </div>
@@ -4434,7 +4453,7 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
             <div class="diag-card">
                 <div class="diag-title" style="color:#a78bfa;">⭐ Metas Extras Criadas Automaticamente a partir dos HTMLs</div>
                 <p style="font-size:0.86rem; color:var(--text-muted); margin-bottom:12px;">
-                    Sempre que um tópico presente no arquivo HTML da pasta <code>Cadernos-Completos/</code> não consta no PDF oficial do TRT-5, o sistema cria automaticamente uma <strong>Meta Extra</strong>. Isso preserva 100% dos seus conteúdos teóricos e bônus sem alterar a sequência oficial do PDF:
+                    Sempre que um tópico presente no arquivo HTML da pasta <code>METAS/</code> não consta no PDF oficial do TRT-5, o sistema cria automaticamente uma <strong>Meta Extra</strong>. Isso preserva 100% dos seus conteúdos teóricos e bônus sem alterar a sequência oficial do PDF:
                 </p>
                 <div style="display:flex; flex-direction:column; gap:8px;" id="lista-metas-extras-diag">
                     <!-- Gerado dinamicamente via JS -->
@@ -5146,7 +5165,7 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
                 html += `
                     <div style="margin-bottom:14px; padding:12px 16px; background:rgba(139, 92, 246, 0.12); border:1px solid rgba(139, 92, 246, 0.35); border-left:4px solid #8b5cf6; border-radius:8px; font-size:0.86rem; color:#e0e7ff; line-height:1.5;">
                         <strong>⭐ Informação sobre esta Meta Extra:</strong><br>
-                        Este tópico foi identificado no arquivo HTML compilado da pasta <code>Cadernos-Completos/</code>, mas não constava no rol oficial de metas do PDF do TRT-5. O sistema gerou automaticamente esta <strong>Meta Extra</strong> para preservar 100% dos seus materiais e resumos de estudo, permitindo que você estude o conteúdo, resolva questões e marque como concluída sem alterar a numeração oficial das metas do PDF.
+                        Este tópico foi identificado no arquivo HTML compilado da pasta <code>METAS/</code>, mas não constava no rol oficial de metas do PDF do TRT-5. O sistema gerou automaticamente esta <strong>Meta Extra</strong> para preservar 100% dos seus materiais e resumos de estudo, permitindo que você estude o conteúdo, resolva questões e marque como concluída sem alterar a numeração oficial das metas do PDF.
                     </div>
                 `;
             }}
@@ -6507,11 +6526,10 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
                 uf: "RS",
                 regiao: "Bahia",
                 banca: "FCC",
-                status: "Ativo",
+                status: "Disponível",
                 metas_qtd: 177,
                 materias_qtd: 10,
-                url: "./index.html",
-                is_current: true
+                url: "https://github.com/daniellucas2025/caderno-do-trt/tree/main/TRT-04-RS"
             }},
             {{
                 id: "trt-5",
@@ -6523,8 +6541,7 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
                 status: "Disponível",
                 metas_qtd: 177,
                 materias_qtd: 10,
-                url: "https://github.com/daniellucas2025/caderno-do-trt/tree/main/TRT-05-BA",
-                is_current: false
+                url: "https://github.com/daniellucas2025/caderno-do-trt/tree/main/TRT-05-BA"
             }},
             {{
                 id: "trt-6",
@@ -6533,11 +6550,22 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
                 uf: "PE",
                 regiao: "Pernambuco",
                 banca: "FCC",
-                status: "Planejamento",
+                status: "Disponível",
                 metas_qtd: 177,
                 materias_qtd: 10,
-                url: "https://github.com/daniellucas2025/caderno-do-trt/tree/main/TRT-06-PE",
-                is_current: false
+                url: "https://github.com/daniellucas2025/caderno-do-trt/tree/main/TRT-06-PE"
+            }},
+            {{
+                id: "trt-7",
+                numero: "07",
+                sigla: "TRT-7",
+                uf: "CE",
+                regiao: "Ceará",
+                banca: "FCC",
+                status: "Disponível",
+                metas_qtd: 177,
+                materias_qtd: 10,
+                url: "https://github.com/daniellucas2025/caderno-do-trt/tree/main/TRT-07-CE"
             }},
             {{
                 id: "trt-8",
@@ -6546,11 +6574,10 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
                 uf: "PA/AP",
                 regiao: "Pará e Amapá",
                 banca: "Cebraspe",
-                status: "Planejamento",
+                status: "Disponível",
                 metas_qtd: 177,
                 materias_qtd: 10,
-                url: "https://github.com/daniellucas2025/caderno-do-trt/tree/main/TRT-08-PA",
-                is_current: false
+                url: "https://github.com/daniellucas2025/caderno-do-trt/tree/main/TRT-08-PA"
             }},
             {{
                 id: "trt-12",
@@ -6559,11 +6586,10 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
                 uf: "SC",
                 regiao: "Santa Catarina",
                 banca: "FCC",
-                status: "Planejamento",
+                status: "Disponível",
                 metas_qtd: 177,
                 materias_qtd: 10,
-                url: "https://github.com/daniellucas2025/caderno-do-trt/tree/main/TRT-12-SC",
-                is_current: false
+                url: "https://github.com/daniellucas2025/caderno-do-trt/tree/main/TRT-12-SC"
             }},
             {{
                 id: "trt-15",
@@ -6572,13 +6598,14 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
                 uf: "SP Interior",
                 regiao: "Campinas",
                 banca: "FCC",
-                status: "Planejamento",
+                status: "Disponível",
                 metas_qtd: 177,
                 materias_qtd: 10,
-                url: "https://github.com/daniellucas2025/caderno-do-trt/tree/main/TRT-15-SP",
-                is_current: false
+                url: "https://github.com/daniellucas2025/caderno-do-trt/tree/main/TRT-15-SP"
             }}
         ];
+
+        let trtAtivoId = localStorage.getItem('estudos_dl_trt_ativo') || 'trt-4';
 
         function obterListaTRTs() {{
             try {{
@@ -6599,6 +6626,65 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
             }} catch (e) {{
                 console.error("Erro ao salvar lista de TRTs:", e);
             }}
+        }}
+
+        function selecionarTribunal(id) {{
+            const lista = obterListaTRTs();
+            const trt = lista.find(t => t.id === id);
+            if (!trt) return;
+
+            trtAtivoId = id;
+            localStorage.setItem('estudos_dl_trt_ativo', id);
+
+            aplicarTribunalAtivo(trt);
+            renderizarListaTRTsSidebar();
+
+            mostrarToast(`🏛️ Tribunal alternado para ${{trt.sigla}} (${{trt.regiao}})!`);
+            setTimeout(() => {{
+                fecharSidebarTRT();
+            }}, 200);
+        }}
+
+        function aplicarTribunalAtivo(trt) {{
+            if (!trt) {{
+                const lista = obterListaTRTs();
+                trt = lista.find(t => t.id === trtAtivoId) || lista[0];
+            }}
+            if (!trt) return;
+
+            // 1. Atualizar pill no topo
+            const pillText = document.querySelector('#btn-trt-pill .trt-text');
+            if (pillText) pillText.textContent = trt.sigla;
+
+            // 2. Atualizar título da topbar
+            const brandTitle = document.querySelector('.topbar-title h1');
+            if (brandTitle) {{
+                brandTitle.innerHTML = `Estudos DL <span style="font-size: 0.68rem; font-weight: 700; color: #38bdf8; background: rgba(56, 189, 248, 0.12); border: 1px solid rgba(56, 189, 248, 0.3); padding: 1px 6px; border-radius: 5px; margin-left: 6px; vertical-align: middle;">${{trt.sigla}}</span>`;
+            }}
+
+            // 3. Atualizar subtítulo da topbar
+            const brandSub = document.querySelector('.topbar-title p');
+            if (brandSub) brandSub.textContent = `Metas de Estudos • ${{trt.regiao}} (${{trt.banca}})`;
+
+            // 4. Atualizar banner do Quadro de Metas
+            const bannerCiclo = document.querySelector('#view-quadro .quadro-header-info span');
+            if (bannerCiclo) bannerCiclo.textContent = `• Ciclo Oficial ${{trt.sigla}} (${{trt.regiao}} - ${{trt.banca}})`;
+
+            // 5. Atualizar aba Meu Edital
+            const editalHeader = document.querySelector('#view-meu-edital h2');
+            if (editalHeader) editalHeader.innerHTML = `📑 Meu Edital • ${{trt.sigla}} (${{trt.uf}})`;
+
+            // 6. Atualizar Legislação Específica em Disciplinas
+            const legCard = document.querySelector('.disciplina-card[data-sigla="LEG"] h3');
+            if (legCard) legCard.textContent = `Legislação Específica (${{trt.sigla}} - ${{trt.uf}})`;
+
+            // 7. Atualizar card na Sidebar
+            const cardBadge = document.getElementById('sidebar-current-badge');
+            const cardNome = document.getElementById('sidebar-current-nome');
+            const cardBanca = document.getElementById('sidebar-current-banca');
+            if (cardBadge) cardBadge.textContent = `${{trt.sigla}} (${{trt.uf}})`;
+            if (cardNome) cardNome.textContent = `Tribunal Regional do Trabalho da ${{trt.numero}}ª Região (${{trt.regiao}})`;
+            if (cardBanca) cardBanca.textContent = trt.banca || 'FCC';
         }}
 
         function toggleSidebarTRT(e) {{
@@ -6645,27 +6731,30 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
 
             container.innerHTML = lista.map((trt, idx) => {{
                 const corBadge = badgesCores[idx % badgesCores.length];
-                const isActive = trt.is_current || trt.id === 'trt-4';
+                const isActive = trt.id === trtAtivoId;
                 const isCustom = trt.is_custom === true;
                 const urlDestino = trt.url || 'https://github.com/daniellucas2025/caderno-do-trt';
 
                 return `
                     <div class="sidebar-trt-item ${{isActive ? 'is-active' : ''}}">
-                        <div class="trt-item-left">
+                        <div class="trt-item-left" onclick="selecionarTribunal('${{trt.id}}')" style="cursor: pointer;" title="Clique para alternar para ${{trt.sigla}}">
                             <span class="trt-item-badge ${{corBadge}}">${{trt.sigla || 'TRT'}}</span>
                             <div class="trt-item-info">
                                 <div class="trt-item-title">${{trt.regiao}} (${{trt.uf}})</div>
-                                <div class="trt-item-sub">Banca ${{trt.banca || 'FCC'}} • ${{trt.status || 'Planejamento'}}</div>
+                                <div class="trt-item-sub">Banca ${{trt.banca || 'FCC'}} • ${{trt.status || 'Disponível'}}</div>
                             </div>
                         </div>
                         <div class="trt-item-actions">
                             ${{isActive ? `
-                                <span class="btn-trt-action btn-trt-current">✓ Ativo</span>
+                                <span class="btn-trt-action btn-trt-current" title="Tribunal atualmente ativo">✓ Ativo</span>
                             ` : `
-                                <a href="${{urlDestino}}" target="${{urlDestino.startsWith('http') ? '_blank' : '_self'}}" rel="noopener noreferrer" class="btn-trt-action" title="Acessar ${{trt.sigla}}">
-                                    <span>Acessar</span> ↗
-                                </a>
+                                <button type="button" class="btn-trt-action" onclick="selecionarTribunal('${{trt.id}}')" title="Alternar e estudar para ${{trt.sigla}}">
+                                    <span>Alternar</span> ➔
+                                </button>
                             `}}
+                            <a href="${{urlDestino}}" target="_blank" rel="noopener noreferrer" class="btn-trt-repo-link" title="Abrir pasta/repositório no GitHub ↗">
+                                📂
+                            </a>
                             ${{isCustom ? `
                                 <button class="btn-trt-delete" onclick="removerTRTCustomizado('${{trt.id}}')" title="Remover este TRT">✕</button>
                             ` : ''}}
@@ -6736,6 +6825,7 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
             document.getElementById('form-novo-trt').reset();
             toggleFormNovoTRT(false);
             renderizarListaTRTsSidebar();
+            selecionarTribunal(novoId);
         }}
 
         function removerTRTCustomizado(id) {{
@@ -6743,7 +6833,11 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
             let lista = obterListaTRTs();
             lista = lista.filter(t => t.id !== id);
             salvarListaTRTs(lista);
-            renderizarListaTRTsSidebar();
+            if (trtAtivoId === id) {{
+                selecionarTribunal('trt-4');
+            }} else {{
+                renderizarListaTRTsSidebar();
+            }}
         }}
 
         window.addEventListener('keydown', (e) => {{
@@ -6761,40 +6855,23 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
         inicializarFirebase();
         verificarHashMeta();
         renderizarListaTRTsSidebar();
+        aplicarTribunalAtivo();
         window.addEventListener('hashchange', verificarHashMeta);
     </script>
 </body>
 </html>
 """
 
-    # Garante que o arquivo de saída seja SEMPRE index.html na pasta Plataforma
-    if caminho_saida.name.lower() != "index.html":
+    # Gera APENAS index.html (evita duplicar arquivos idênticos no GitHub)
+    if caminho_saida.name.lower() == "plataforma_metas.html":
         caminho_saida = caminho_saida.parent / "index.html"
-
     caminho_saida.write_text(template_html, encoding="utf-8")
-    print(f"\n========================================================")
-    print(f"✅ PLATAFORMA OFICIAL GERADA COM SUCESSO!")
-    print(f"========================================================")
-    print(f"📁 Pasta de Destino: {caminho_saida.parent.resolve()}")
-    print(f"📄 Arquivo Gerado:   {caminho_saida.name}")
-    print(f"👉 Abra no navegador: {caminho_saida.resolve()}")
-
-    # Limpeza preventiva: remove duplicatas desnecessárias que possam ter sido geradas em pastas erradas
-    possiveis_duplicatas = [
-        caminho_saida.parent / "Plataforma_Metas.html",
-        caminho_saida.parent.parent / "Cadernos-Completos" / "index.html",
-        caminho_saida.parent.parent / "Cadernos-Completos" / "Plataforma_Metas.html",
-        caminho_saida.parent.parent / "Scripts-Geradores" / "index.html",
-        caminho_saida.parent.parent / "Scripts-Geradores" / "Plataforma_Metas.html"
-    ]
-    for dup in possiveis_duplicatas:
-        if dup.exists():
-            dup.unlink()
-            print(f"🧹 Removida duplicata desnecessária: {dup.name} de {dup.parent.name}/")
+    print(f"\n[OK] Plataforma Oficial gerada com sucesso!")
+    print(f"     Arquivo principal (PWA / GitHub Pages): {caminho_saida}")
 
 def main():
     parser = argparse.ArgumentParser(description="Gerador da Plataforma de Metas - TRT-5")
-    parser.add_argument("--dir", "-d", default=".", help="Diretório onde procurar arquivos .html (padrão: pasta Cadernos-Completos)")
+    parser.add_argument("--dir", "-d", default=".", help="Diretório onde procurar arquivos .html (padrão: pasta METAS)")
     parser.add_argument("--output", "-o", default="index.html", help="Nome do arquivo de saída (padrão: index.html)")
 
     args = parser.parse_args()
