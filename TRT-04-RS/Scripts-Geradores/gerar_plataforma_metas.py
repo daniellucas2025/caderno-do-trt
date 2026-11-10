@@ -1274,12 +1274,12 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estudos DL • Plataforma de Metas TRT-4</title>
+    <title>Caderno do TRT • Plataforma Unificada de Estudos</title>
     <!-- Configurações PWA & Mobile -->
     <meta name="theme-color" content="#090a0f">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Estudos DL">
+    <meta name="apple-mobile-web-app-title" content="Caderno do TRT">
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/svg+xml" href="icon.svg">
     <link rel="apple-touch-icon" href="icon-192.png">
@@ -4192,13 +4192,13 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
         <!-- LINHA 1 DA TOPBAR: MARCA, NAVEGAÇÃO E CICLO -->
         <div class="topbar-main-row">
             <!-- MARCA ESTUDOS DL -->
-            <div class="topbar-brand" title="Estudos DL • Quadro de Metas">
+            <div class="topbar-brand" title="Caderno do TRT • Plataforma Unificada">
                 <div class="topbar-logo" onclick="abrirVisaoQuadro()" style="cursor: pointer;">
                     <span class="topbar-logo-badge">DL</span>
                 </div>
                 <div class="topbar-title">
                     <div style="display: flex; align-items: center; gap: 4px;">
-                        <h1 onclick="abrirVisaoQuadro()" style="cursor: pointer; margin: 0;">Estudos DL</h1>
+                        <h1 onclick="abrirVisaoQuadro()" style="cursor: pointer; margin: 0;">Caderno do TRT</h1>
                         <button class="btn-trt-pill" id="btn-trt-pill" onclick="toggleSidebarTRT(event)" title="Abrir Menu de Tribunais (TRTs)">
                             <span class="trt-icon">🏛️</span>
                             <span class="trt-text">TRT-4</span>
@@ -6602,6 +6602,18 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
                 metas_qtd: 177,
                 materias_qtd: 10,
                 url: "https://github.com/daniellucas2025/caderno-do-trt/tree/main/TRT-15-SP"
+            }},
+            {{
+                id: "trt-2",
+                numero: "02",
+                sigla: "TRT-2",
+                uf: "SP Capital",
+                regiao: "São Paulo e Litoral",
+                banca: "FCC",
+                status: "Disponível",
+                metas_qtd: 177,
+                materias_qtd: 10,
+                url: "https://github.com/daniellucas2025/caderno-do-trt/tree/main/TRT-02-SP"
             }}
         ];
 
@@ -6659,7 +6671,7 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
             // 2. Atualizar título da topbar
             const brandTitle = document.querySelector('.topbar-title h1');
             if (brandTitle) {{
-                brandTitle.innerHTML = `Estudos DL <span style="font-size: 0.68rem; font-weight: 700; color: #38bdf8; background: rgba(56, 189, 248, 0.12); border: 1px solid rgba(56, 189, 248, 0.3); padding: 1px 6px; border-radius: 5px; margin-left: 6px; vertical-align: middle;">${{trt.sigla}}</span>`;
+                brandTitle.innerHTML = `Caderno do TRT <span style="font-size: 0.68rem; font-weight: 700; color: #38bdf8; background: rgba(56, 189, 248, 0.12); border: 1px solid rgba(56, 189, 248, 0.3); padding: 1px 6px; border-radius: 5px; margin-left: 6px; vertical-align: middle;">${{trt.sigla}}</span>`;
             }}
 
             // 3. Atualizar subtítulo da topbar
@@ -6868,6 +6880,12 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
     caminho_saida.write_text(template_html, encoding="utf-8")
     print(f"\n[OK] Plataforma Oficial gerada com sucesso!")
     print(f"     Arquivo principal (PWA / GitHub Pages): {caminho_saida}")
+
+    # Atualiza também a raiz do repositório Caderno do TRT (Plataforma Única Definitiva)
+    root_hub = Path(__file__).resolve().parent.parent.parent
+    if (root_hub / ".git").exists() and (root_hub / "index.html").exists():
+        (root_hub / "index.html").write_text(template_html, encoding="utf-8")
+        print(f"     [OK] Raiz unificada atualizada com sucesso: {root_hub / 'index.html'}")
 
 def main():
     parser = argparse.ArgumentParser(description="Gerador da Plataforma de Metas - TRT-4")
