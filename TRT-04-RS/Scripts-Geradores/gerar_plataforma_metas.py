@@ -4408,13 +4408,13 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
             <div class="quadro-header-banner" style="border-left-color: var(--accent-red);">
                 <div class="quadro-header-info">
                     <h2>📋 Diagnóstico do Edital: O que Falta</h2>
-                    <p>Comparação completa entre o Guia Oficial do TRT-4 (208 Metas) e a sua pasta METAS.</p>
+                    <p>Comparação completa entre o Guia Oficial do TRT-4 (208 Metas) e a sua pasta Cadernos-Completos.</p>
                 </div>
             </div>
 
             <div class="diag-card">
-                <div class="diag-title" style="color:var(--accent-red);">❌ Disciplinas do PDF Ausentes na pasta METAS (48 Metas Faltando)</div>
-                <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:12px;">Estas matérias constam no Guia do TRT-4, mas ainda não possuem arquivo compilado na pasta <code>METAS/</code>:</p>
+                <div class="diag-title" style="color:var(--accent-red);">❌ Disciplinas do PDF Ausentes na pasta Cadernos-Completos (48 Metas Faltando)</div>
+                <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:12px;">Estas matérias constam no Guia do TRT-4, mas ainda não possuem arquivo compilado na pasta <code>Cadernos-Completos/</code>:</p>
                 <div style="display:flex; flex-direction:column; gap:8px;" id="lista-disciplinas-ausentes-el">
                     <!-- Gerado via JS -->
                 </div>
@@ -4434,7 +4434,7 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
             <div class="diag-card">
                 <div class="diag-title" style="color:#a78bfa;">⭐ Metas Extras Criadas Automaticamente a partir dos HTMLs</div>
                 <p style="font-size:0.86rem; color:var(--text-muted); margin-bottom:12px;">
-                    Sempre que um tópico presente no arquivo HTML da pasta <code>METAS/</code> não consta no PDF oficial do TRT-4, o sistema cria automaticamente uma <strong>Meta Extra</strong>. Isso preserva 100% dos seus conteúdos teóricos e bônus sem alterar a sequência oficial do PDF:
+                    Sempre que um tópico presente no arquivo HTML da pasta <code>Cadernos-Completos/</code> não consta no PDF oficial do TRT-4, o sistema cria automaticamente uma <strong>Meta Extra</strong>. Isso preserva 100% dos seus conteúdos teóricos e bônus sem alterar a sequência oficial do PDF:
                 </p>
                 <div style="display:flex; flex-direction:column; gap:8px;" id="lista-metas-extras-diag">
                     <!-- Gerado dinamicamente via JS -->
@@ -5146,7 +5146,7 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
                 html += `
                     <div style="margin-bottom:14px; padding:12px 16px; background:rgba(139, 92, 246, 0.12); border:1px solid rgba(139, 92, 246, 0.35); border-left:4px solid #8b5cf6; border-radius:8px; font-size:0.86rem; color:#e0e7ff; line-height:1.5;">
                         <strong>⭐ Informação sobre esta Meta Extra:</strong><br>
-                        Este tópico foi identificado no arquivo HTML compilado da pasta <code>METAS/</code>, mas não constava no rol oficial de metas do PDF do TRT-4. O sistema gerou automaticamente esta <strong>Meta Extra</strong> para preservar 100% dos seus materiais e resumos de estudo, permitindo que você estude o conteúdo, resolva questões e marque como concluída sem alterar a numeração oficial das metas do PDF.
+                        Este tópico foi identificado no arquivo HTML compilado da pasta <code>Cadernos-Completos/</code>, mas não constava no rol oficial de metas do PDF do TRT-4. O sistema gerou automaticamente esta <strong>Meta Extra</strong> para preservar 100% dos seus materiais e resumos de estudo, permitindo que você estude o conteúdo, resolva questões e marque como concluída sem alterar a numeração oficial das metas do PDF.
                     </div>
                 `;
             }}
@@ -6767,16 +6767,34 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
 </html>
 """
 
-    # Gera APENAS index.html (evita duplicar arquivos idênticos no GitHub)
-    if caminho_saida.name.lower() == "plataforma_metas.html":
+    # Garante que o arquivo de saída seja SEMPRE index.html na pasta Plataforma
+    if caminho_saida.name.lower() != "index.html":
         caminho_saida = caminho_saida.parent / "index.html"
+
     caminho_saida.write_text(template_html, encoding="utf-8")
-    print(f"\n[OK] Plataforma Oficial gerada com sucesso!")
-    print(f"     Arquivo principal (PWA / GitHub Pages): {caminho_saida}")
+    print(f"\n========================================================")
+    print(f"✅ PLATAFORMA OFICIAL GERADA COM SUCESSO!")
+    print(f"========================================================")
+    print(f"📁 Pasta de Destino: {caminho_saida.parent.resolve()}")
+    print(f"📄 Arquivo Gerado:   {caminho_saida.name}")
+    print(f"👉 Abra no navegador: {caminho_saida.resolve()}")
+
+    # Limpeza preventiva: remove duplicatas desnecessárias que possam ter sido geradas em pastas erradas
+    possiveis_duplicatas = [
+        caminho_saida.parent / "Plataforma_Metas.html",
+        caminho_saida.parent.parent / "Cadernos-Completos" / "index.html",
+        caminho_saida.parent.parent / "Cadernos-Completos" / "Plataforma_Metas.html",
+        caminho_saida.parent.parent / "Scripts-Geradores" / "index.html",
+        caminho_saida.parent.parent / "Scripts-Geradores" / "Plataforma_Metas.html"
+    ]
+    for dup in possiveis_duplicatas:
+        if dup.exists():
+            dup.unlink()
+            print(f"🧹 Removida duplicata desnecessária: {dup.name} de {dup.parent.name}/")
 
 def main():
     parser = argparse.ArgumentParser(description="Gerador da Plataforma de Metas - TRT-4")
-    parser.add_argument("--dir", "-d", default=".", help="Diretório onde procurar arquivos .html (padrão: pasta METAS)")
+    parser.add_argument("--dir", "-d", default=".", help="Diretório onde procurar arquivos .html (padrão: pasta Cadernos-Completos)")
     parser.add_argument("--output", "-o", default="index.html", help="Nome do arquivo de saída (padrão: index.html)")
 
     args = parser.parse_args()
