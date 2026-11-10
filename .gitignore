@@ -1,0 +1,9 @@
+# Bloquear arquivos PDF (proteção de dados pessoais e CPF)
+*.pdf
+*.PDF
+
+# Temporários e caches
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
