@@ -25,8 +25,7 @@ CORE_CADERNOS = [
     "Matematica e Rlm_COMPLETO.html",
     "Informática_COMPLETO.html",
     "Direitos Humanos_COMPLETO.html",
-    "Administração_COMPLETO.html",
-    "Estudos_Unificado.html"
+    "Administração_COMPLETO.html"
 ]
 
 LEGISLACAO_TEMPLATE = """<!DOCTYPE html>

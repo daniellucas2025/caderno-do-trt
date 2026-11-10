@@ -34,6 +34,7 @@ caderno-do-trt/
 | **TRT-05** | Bahia | FCC | ⏳ Em Planejamento | — | — |
 | **TRT-06** | Pernambuco | FCC | ⏳ Em Planejamento | — | — |
 | **TRT-08** | Pará / Amapá | Cebraspe | ⏳ Em Planejamento | — | — |
+| **TRT-07** | CEARÁ | FCC | ✅ Instalado | 177 Metas • TJAA & AJAJ | [Abrir Localmente](TRT-07-CE/Plataforma/index.html) |
 
 ---
 
