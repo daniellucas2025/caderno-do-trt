@@ -7,7 +7,7 @@ echo   [1] GERANDO PLATAFORMA DE METAS LOCALMENTE...
 echo ========================================================
 echo.
 
-python "%~dp0gerar_local.py"
+python "%~dp0gerar_plataforma_metas.py"
 
 echo.
 pause

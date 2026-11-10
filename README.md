@@ -16,10 +16,12 @@ caderno-do-trt/
 │   ├── 📱 Plataforma/           # Aplicação Web PWA 100% offline com Quadro de Metas e Dashboard
 │   ├── 📚 Cadernos-Completos/   # 10 Cadernos teóricos unificados em HTML por matéria
 │   ├── 📑 Mapeamento-Edital/    # Mapeamento 100% correlacionado dos tópicos de TJAA e AJAJ com as metas
-│   ├── 📄 Documentos-Oficiais/  # Planilhas de controle e Guias de estudo oficiais em PDF
+│   ├── 🔒 Documentos-Oficiais/  # Diretório seguro (protegido contra PDFs com CPF por LGPD)
 │   └── ⚙️ Scripts-Geradores/    # Automação em Python e .BAT para compilação da plataforma
 │
-└── 📁 OUTROS-TRTS/               # Modelo e diretrizes para adicionar novos tribunais (TRT-5, TRT-6, TRT-8, etc.)
+├── 📁 OUTROS-TRTS/               # Modelos, conversores de edital e diretrizes para novos tribunais
+├── ⚡ NOVO_TRT.bat               # Assistente 1-clique para criar qualquer novo TRT
+└── 🐍 gerar_novo_trt.py          # Gerador modular automatizado via CLI
 ```
 
 ---
@@ -44,6 +46,19 @@ caderno-do-trt/
 
 ---
 
-## 🤝 Adicionar Novos Tribunais
+## ⚡ Como Criar Qualquer Novo TRT em 1 Minuto
 
-Para adicionar um novo tribunal a este repositório, consulte o guia na pasta [`OUTROS-TRTS/README.md`](OUTROS-TRTS/README.md).
+Adicionar um novo TRT é automatizado:
+
+1. Dê um duplo-clique em `NOVO_TRT.bat` (ou execute `python gerar_novo_trt.py`).
+2. Digite a região, o estado e a banca (ex: `05`, `BA`, `Bahia`, `FCC`).
+3. O gerador cria a pasta completa `TRT-XX-UF`, herda o núcleo comum das matérias (CLT, CF, Dir. Adm, etc.), gera os cadernos, assets PWA e compila a plataforma imediatamente!
+
+Para detalhes avançados e mapeamento de editais em texto, consulte o guia na pasta [`OUTROS-TRTS/README.md`](OUTROS-TRTS/README.md).
+
+---
+
+## 🔒 Proteção de Dados e Privacidade (LGPD)
+
+> **AVISO IMPORTANTE:** Arquivos `.pdf` de plataformas terceiras não são incluídos no repositório por conterem marcas d'água com CPF e dados pessoais.
+> O arquivo `.gitignore` bloqueia permanentemente `*.pdf` para proteger a sua privacidade.

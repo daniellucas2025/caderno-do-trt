@@ -1260,6 +1260,8 @@ def gerar_html_plataforma(catalogo_com_conteudo, disciplinas_ausentes, caminho_s
     
     # Carregar dados dos editais TJAA e AJAJ mapeados
     editais_path = Path(__file__).resolve().parent / "editais_mapped.json"
+    if not editais_path.exists():
+        editais_path = Path(__file__).resolve().parent.parent / "Mapeamento-Edital" / "editais_mapped.json"
     if editais_path.exists():
         with open(editais_path, "r", encoding="utf-8") as f:
             editais_data = json.load(f)
@@ -5927,14 +5929,27 @@ def main():
     args = parser.parse_args()
 
     script_dir = Path(__file__).resolve().parent
-    metas_dir = script_dir / "METAS"
-    if not metas_dir.exists():
+    trt_root = script_dir.parent
+
+    # Suporte para estrutura modular TRT-XX-UF (Cadernos-Completos e Plataforma)
+    cadernos_dir = trt_root / "Cadernos-Completos"
+    plataforma_dir = trt_root / "Plataforma"
+
+    if cadernos_dir.exists():
+        metas_dir = cadernos_dir
+    elif (script_dir / "METAS").exists():
+        metas_dir = script_dir / "METAS"
+    else:
         metas_dir = Path(args.dir).resolve()
 
-    print(f"[*] Varrendo pasta de metas em: {metas_dir}")
+    print(f"[*] Varrendo cadernos em: {metas_dir}")
     catalogo_vinculado, ausentes_finais = vincular_conteudo_as_metas(METAS_CATALOGO, metas_dir, DISCIPLINAS_AUSENTES_PDF)
 
-    caminho_saida = metas_dir / args.output
+    if plataforma_dir.exists():
+        caminho_saida = plataforma_dir / args.output
+    else:
+        caminho_saida = metas_dir / args.output
+
     gerar_html_plataforma(catalogo_vinculado, ausentes_finais, caminho_saida)
 
 if __name__ == "__main__":

@@ -1,0 +1,106 @@
+{
+  "tjaa": {
+    "cargo": "Técnico Judiciário - Área Administrativa (TJAA)",
+    "sigla_cargo": "TJAA",
+    "disciplinas": [
+      {
+        "sigla": "PORT",
+        "nome": "PORTUGUÊS",
+        "topicos": [
+          {
+            "id": "port-topico-1",
+            "topico": "Ortografia e acentuação gráfica oficial.",
+            "metas_texto": "1",
+            "metas_numeros": [1],
+            "meta_ids": ["port-meta-1"]
+          },
+          {
+            "id": "port-topico-2",
+            "topico": "Compreensão e interpretação de textos de gêneros variados.",
+            "metas_texto": "12 e 14",
+            "metas_numeros": [12, 14],
+            "meta_ids": ["port-meta-12", "port-meta-14"]
+          }
+        ]
+      },
+      {
+        "sigla": "DT",
+        "nome": "DIREITO DO TRABALHO",
+        "topicos": [
+          {
+            "id": "dt-topico-1",
+            "topico": "Dos princípios e fontes do Direito do Trabalho.",
+            "metas_texto": "1",
+            "metas_numeros": [1],
+            "meta_ids": ["dt-meta-1"]
+          },
+          {
+            "id": "dt-topico-2",
+            "topico": "Do contrato individual de trabalho: conceito, classificação e características.",
+            "metas_texto": "3",
+            "metas_numeros": [3],
+            "meta_ids": ["dt-meta-3"]
+          }
+        ]
+      },
+      {
+        "sigla": "DPT",
+        "nome": "DIREITO PROCESSUAL DO TRABALHO",
+        "topicos": [
+          {
+            "id": "dpt-topico-1",
+            "topico": "Da Justiça do Trabalho: organização e competência.",
+            "metas_texto": "1",
+            "metas_numeros": [1],
+            "meta_ids": ["dpt-meta-1"]
+          }
+        ]
+      },
+      {
+        "sigla": "LEG",
+        "nome": "LEGISLAÇÃO ESPECÍFICA E REGIMENTO INTERNO",
+        "topicos": [
+          {
+            "id": "leg-topico-1",
+            "topico": "Regimento Interno do Tribunal Regional do Trabalho.",
+            "metas_texto": "1 a 3",
+            "metas_numeros": [1, 2, 3],
+            "meta_ids": ["leg-meta-1", "leg-meta-2", "leg-meta-3"]
+          }
+        ]
+      }
+    ]
+  },
+  "ajaj": {
+    "cargo": "Analista Judiciário - Área Judiciária (AJAJ)",
+    "sigla_cargo": "AJAJ",
+    "disciplinas": [
+      {
+        "sigla": "PORT",
+        "nome": "PORTUGUÊS",
+        "topicos": [
+          {
+            "id": "port-ajaj-topico-1",
+            "topico": "Ortografia e pontuação.",
+            "metas_texto": "1 e 8",
+            "metas_numeros": [1, 8],
+            "meta_ids": ["port-meta-1", "port-meta-8"]
+          }
+        ]
+      },
+      {
+        "sigla": "DT",
+        "nome": "DIREITO DO TRABALHO",
+        "topicos": [
+          {
+            "id": "dt-ajaj-topico-1",
+            "topico": "Relação de trabalho e relação de emprego.",
+            "metas_texto": "2 e 3",
+            "metas_numeros": [2, 3],
+            "meta_ids": ["dt-meta-2", "dt-meta-3"]
+          }
+        ]
+      }
+    ]
+  }
+}

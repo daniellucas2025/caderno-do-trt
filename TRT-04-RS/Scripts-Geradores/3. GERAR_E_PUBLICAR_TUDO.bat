@@ -7,7 +7,11 @@ echo   [3] GERANDO PLATAFORMA E PUBLICANDO NO SITE...
 echo ========================================================
 echo.
 
-python "%~dp0gerar_e_publicar.py"
+python "%~dp0gerar_plataforma_metas.py"
+if %ERRORLEVEL% EQU 0 (
+    echo.
+    python "%~dp0publicar_github.py"
+)
 
 echo.
 pause
