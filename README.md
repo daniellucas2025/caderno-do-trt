@@ -31,10 +31,10 @@ caderno-do-trt/
 | Tribunal | Região | Banca | Status | Metas / Tópicos | Plataforma Online |
 |:---|:---:|:---:|:---:|:---:|:---:|
 | **TRT-04** | Rio Grande do Sul | FCC | ✅ Concluído (100%) | 177 Metas (10 Matérias) • TJAA & AJAJ | [Acessar Plataforma](https://daniellucas2025.github.io/metas-trt4/) |
-| **TRT-05** | Bahia | FCC | ⏳ Em Planejamento | — | — |
+| **TRT-05** | Bahia | FCC | ✅ Instalado | 177 Metas • TJAA & AJAJ | [Abrir Localmente](TRT-05-BA/Plataforma/index.html) |
 | **TRT-06** | Pernambuco | FCC | ⏳ Em Planejamento | — | — |
 | **TRT-08** | Pará / Amapá | Cebraspe | ⏳ Em Planejamento | — | — |
-| **TRT-07** | CEARÁ | FCC | ✅ Instalado | 177 Metas • TJAA & AJAJ | [Abrir Localmente](TRT-07-CE/Plataforma/index.html) |
+| **TRT-07** | Ceará | FCC | ✅ Instalado | 177 Metas • TJAA & AJAJ | [Abrir Localmente](TRT-07-CE/Plataforma/index.html) |
 
 ---
 
