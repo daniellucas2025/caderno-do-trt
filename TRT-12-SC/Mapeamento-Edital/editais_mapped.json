@@ -1,0 +1,3191 @@
+{
+  "tjaa": {
+    "cargo": "Técnico Judiciário - Área Administrativa (TJAA)",
+    "sigla_cargo": "TJAA",
+    "disciplinas": [
+      {
+        "sigla": "PORT",
+        "nome": "PORTUGUÊS",
+        "topicos": [
+          {
+            "id": "port-topico-1",
+            "topico": "Ortografia e acentuação.",
+            "metas_texto": "1",
+            "metas_numeros": [
+              1
+            ],
+            "meta_ids": [
+              "port-meta-1"
+            ]
+          },
+          {
+            "id": "port-topico-2",
+            "topico": "Elementos estruturais e processos de formação de palavras.",
+            "metas_texto": "2",
+            "metas_numeros": [
+              2
+            ],
+            "meta_ids": [
+              "port-meta-2"
+            ]
+          },
+          {
+            "id": "port-topico-3",
+            "topico": "Morfossintaxe.",
+            "metas_texto": "2 a 7",
+            "metas_numeros": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "meta_ids": [
+              "port-meta-2",
+              "port-meta-3",
+              "port-meta-4",
+              "port-meta-5",
+              "port-meta-6",
+              "port-meta-7"
+            ]
+          },
+          {
+            "id": "port-topico-4",
+            "topico": "Conectivos. Coordenação e subordinação.",
+            "metas_texto": "3 e 7",
+            "metas_numeros": [
+              3,
+              7
+            ],
+            "meta_ids": [
+              "port-meta-3",
+              "port-meta-7"
+            ]
+          },
+          {
+            "id": "port-topico-5",
+            "topico": "Pronomes.",
+            "metas_texto": "3",
+            "metas_numeros": [
+              3
+            ],
+            "meta_ids": [
+              "port-meta-3"
+            ]
+          },
+          {
+            "id": "port-topico-6",
+            "topico": "Correlação de tempos e modos verbais. Flexão nominal e flexão verbal.",
+            "metas_texto": "4",
+            "metas_numeros": [
+              4
+            ],
+            "meta_ids": [
+              "port-meta-4"
+            ]
+          },
+          {
+            "id": "port-topico-7",
+            "topico": "Pontuação.",
+            "metas_texto": "8",
+            "metas_numeros": [
+              8
+            ],
+            "meta_ids": [
+              "port-meta-8"
+            ]
+          },
+          {
+            "id": "port-topico-8",
+            "topico": "Vozes do verbo.",
+            "metas_texto": "9",
+            "metas_numeros": [
+              9
+            ],
+            "meta_ids": [
+              "port-meta-9"
+            ]
+          },
+          {
+            "id": "port-topico-9",
+            "topico": "Concordância nominal e concordância verbal.",
+            "metas_texto": "10",
+            "metas_numeros": [
+              10
+            ],
+            "meta_ids": [
+              "port-meta-10"
+            ]
+          },
+          {
+            "id": "port-topico-10",
+            "topico": "Regência nominal e regência verbal.",
+            "metas_texto": "10",
+            "metas_numeros": [
+              10
+            ],
+            "meta_ids": [
+              "port-meta-10"
+            ]
+          },
+          {
+            "id": "port-topico-11",
+            "topico": "Emprego do sinal indicativo de crase.",
+            "metas_texto": "10",
+            "metas_numeros": [
+              10
+            ],
+            "meta_ids": [
+              "port-meta-10"
+            ]
+          },
+          {
+            "id": "port-topico-12",
+            "topico": "Compreensão e interpretação de textos de gêneros variados. Relação do texto com seu contexto histórico. Intertextualidade.",
+            "metas_texto": "12 e 14",
+            "metas_numeros": [
+              12,
+              14
+            ],
+            "meta_ids": [
+              "port-meta-12",
+              "port-meta-14"
+            ]
+          },
+          {
+            "id": "port-topico-13",
+            "topico": "Denotação e conotação. Sinonímia e antonímia.",
+            "metas_texto": "13",
+            "metas_numeros": [
+              13
+            ],
+            "meta_ids": [
+              "port-meta-13"
+            ]
+          },
+          {
+            "id": "port-topico-14",
+            "topico": "Redação (confronto e reconhecimento de frases corretas e incorretas; organização e reorganização de orações e períodos; equivalência e transformação de estruturas).",
+            "metas_texto": "15",
+            "metas_numeros": [
+              15
+            ],
+            "meta_ids": [
+              "port-meta-15"
+            ]
+          },
+          {
+            "id": "port-topico-15",
+            "topico": "Discurso direto, discurso indireto e discurso indireto livre.",
+            "metas_texto": "16",
+            "metas_numeros": [
+              16
+            ],
+            "meta_ids": [
+              "port-meta-16"
+            ]
+          },
+          {
+            "id": "port-topico-16",
+            "topico": "Figuras de linguagem.",
+            "metas_texto": "16",
+            "metas_numeros": [
+              16
+            ],
+            "meta_ids": [
+              "port-meta-16"
+            ]
+          },
+          {
+            "id": "port-topico-17",
+            "topico": "Redação Oficial.",
+            "metas_texto": "17",
+            "metas_numeros": [
+              17
+            ],
+            "meta_ids": [
+              "port-meta-17"
+            ]
+          }
+        ]
+      },
+      {
+        "sigla": "RLM",
+        "nome": "MATEMÁTICA E RACIOCÍNIO LÓGICO",
+        "topicos": [
+          {
+            "id": "rlm-topico-1",
+            "topico": "Números inteiros e racionais: operações (adição, subtração, multiplicação, divisão, potenciação); expressões numéricas; múltiplos e divisores de números naturais; problemas.",
+            "metas_texto": "1 e 2",
+            "metas_numeros": [
+              1,
+              2
+            ],
+            "meta_ids": [
+              "rlm-meta-1",
+              "rlm-meta-2"
+            ]
+          },
+          {
+            "id": "rlm-topico-2",
+            "topico": "Frações e operações com frações.",
+            "metas_texto": "3",
+            "metas_numeros": [
+              3
+            ],
+            "meta_ids": [
+              "rlm-meta-3"
+            ]
+          },
+          {
+            "id": "rlm-topico-3",
+            "topico": "Números e grandezas proporcionais: razões e proporções; divisão em partes proporcionais; regra de três; porcentagem e problemas envolvendo regra de três simples, cálculos de porcentagem, acréscimos e descontos.",
+            "metas_texto": "6 e 7",
+            "metas_numeros": [
+              6,
+              7
+            ],
+            "meta_ids": [
+              "rlm-meta-6",
+              "rlm-meta-7"
+            ]
+          },
+          {
+            "id": "rlm-topico-4",
+            "topico": "Noções de Estatísticas: medidas de tendência central (moda, mediana, média aritmética simples e ponderada) e de dispersão (desvio médio, amplitude, variância, desvio padrão); leitura e interpretação de gráficos (histogramas, setores, infográficos) e tabelas.",
+            "metas_texto": "8",
+            "metas_numeros": [
+              8
+            ],
+            "meta_ids": [
+              "rlm-meta-8"
+            ]
+          },
+          {
+            "id": "rlm-topico-5",
+            "topico": "Estrutura lógica de relações arbitrárias entre pessoas, lugares, objetos ou eventos fictícios; deduzir novas informações das relações fornecidas e avaliar as condições usadas para estabelecer a estrutura daquelas relações. Compreensão e elaboração da lógica das situações por meio de: raciocínio verbal, raciocínio matemático, raciocínio sequencial, orientação espacial e temporal, formação de conceitos, discriminação de elementos. Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas.",
+            "metas_texto": "10 a 12",
+            "metas_numeros": [
+              10,
+              11,
+              12
+            ],
+            "meta_ids": [
+              "rlm-meta-10",
+              "rlm-meta-11",
+              "rlm-meta-12"
+            ]
+          }
+        ]
+      },
+      {
+        "sigla": "INFO",
+        "nome": "INFORMÁTICA",
+        "topicos": [
+          {
+            "id": "info-topico-1",
+            "topico": "Noções de sistema operacional: Windows 10 e 11. Conceitos de organização e de gerenciamento de informações: Arquivos, pastas e programas.",
+            "metas_texto": "1 e 2",
+            "metas_numeros": [
+              1,
+              2
+            ],
+            "meta_ids": [
+              "info-meta-1",
+              "info-meta-2"
+            ]
+          },
+          {
+            "id": "info-topico-2",
+            "topico": "Redes de Computadores: Conceitos básicos, ferramentas, aplicativos e procedimentos de internet e intranet.",
+            "metas_texto": "8",
+            "metas_numeros": [
+              8
+            ],
+            "meta_ids": [
+              "info-meta-8"
+            ]
+          },
+          {
+            "id": "info-topico-3",
+            "topico": "Navegadores web: Mozilla Firefox, Google Chrome, Microsoft Edge.",
+            "metas_texto": "9",
+            "metas_numeros": [
+              9
+            ],
+            "meta_ids": [
+              "info-meta-9"
+            ]
+          },
+          {
+            "id": "info-topico-4",
+            "topico": "Sítios de busca e pesquisa na internet: Utilização de mecanismos de busca como Google, Bing.",
+            "metas_texto": "10",
+            "metas_numeros": [
+              10
+            ],
+            "meta_ids": [
+              "info-meta-10"
+            ]
+          },
+          {
+            "id": "info-topico-5",
+            "topico": "Segurança da informação: Procedimentos de segurança; noções de vírus, worms e outras pragas virtuais; aplicativos para segurança (antivírus, firewall, antispyware etc.); boas práticas de segurança cibernética, incluindo autenticação de dois fatores e gestão de senhas.",
+            "metas_texto": "11",
+            "metas_numeros": [
+              11
+            ],
+            "meta_ids": [
+              "info-meta-11"
+            ]
+          }
+        ]
+      },
+      {
+        "sigla": "DH",
+        "nome": "DIREITOS HUMANOS",
+        "topicos": [
+          {
+            "id": "dh-topico-1",
+            "topico": "Pacto Internacional dos Direitos Civis e Políticos (PIDCP) e protocolos facultativos.",
+            "metas_texto": "4",
+            "metas_numeros": [
+              4
+            ],
+            "meta_ids": [
+              "dh-meta-4"
+            ]
+          },
+          {
+            "id": "dh-topico-2",
+            "topico": "Pacto Internacional dos Direitos Econômicos, Sociais e Culturais (PIDESC) e protocolos facultativos.",
+            "metas_texto": "5",
+            "metas_numeros": [
+              5
+            ],
+            "meta_ids": [
+              "dh-meta-5"
+            ]
+          },
+          {
+            "id": "dh-topico-3",
+            "topico": "Convenção sobre a eliminação de todas as formas de discriminação racial.",
+            "metas_texto": "8",
+            "metas_numeros": [
+              8
+            ],
+            "meta_ids": [
+              "dh-meta-8"
+            ]
+          },
+          {
+            "id": "dh-topico-4",
+            "topico": "Convenção sobre a eliminação de todas as formas de discriminação contra a mulher e protocolo facultativo.",
+            "metas_texto": "9",
+            "metas_numeros": [
+              9
+            ],
+            "meta_ids": [
+              "dh-meta-9"
+            ]
+          },
+          {
+            "id": "dh-topico-5",
+            "topico": "Convenção sobre os direitos da criança e seus protocolos facultativos.",
+            "metas_texto": "10",
+            "metas_numeros": [
+              10
+            ],
+            "meta_ids": [
+              "dh-meta-10"
+            ]
+          },
+          {
+            "id": "dh-topico-6",
+            "topico": "Convenção sobre os direitos da pessoa com deficiência e seu protocolo facultativo.",
+            "metas_texto": "11",
+            "metas_numeros": [
+              11
+            ],
+            "meta_ids": [
+              "dh-meta-11"
+            ]
+          },
+          {
+            "id": "dh-topico-7",
+            "topico": "Declaração das Nações Unidas sobre os direitos dos povos indígenas.",
+            "metas_texto": "13",
+            "metas_numeros": [
+              13
+            ],
+            "meta_ids": [
+              "dh-meta-13"
+            ]
+          },
+          {
+            "id": "dh-topico-8",
+            "topico": "Perspectiva de Gênero no Poder Judiciário e o Comitê de Incentivo à Participação Institucional Feminina no Poder Judiciário (Resolução CNJ nº 492/2023); Programa de Equidade de Raça, Gênero e Diversidade no âmbito da Justiça do Trabalho (Resolução CSJT nº 368/2023).",
+            "metas_texto": "13",
+            "metas_numeros": [
+              13
+            ],
+            "meta_ids": [
+              "dh-meta-13"
+            ]
+          },
+          {
+            "id": "dh-topico-9",
+            "topico": "Convenção relativa à proteção do patrimônio mundial, cultural e natural - \"Declaração de Estocolmo\".",
+            "metas_texto": "14",
+            "metas_numeros": [
+              14
+            ],
+            "meta_ids": [
+              "dh-meta-14"
+            ]
+          },
+          {
+            "id": "dh-topico-10",
+            "topico": "Convenção sobre a diversidade biológica.",
+            "metas_texto": "15",
+            "metas_numeros": [
+              15
+            ],
+            "meta_ids": [
+              "dh-meta-15"
+            ]
+          },
+          {
+            "id": "dh-topico-11",
+            "topico": "Declaração Americana dos Direitos e Deveres do Homem.",
+            "metas_texto": "15",
+            "metas_numeros": [
+              15
+            ],
+            "meta_ids": [
+              "dh-meta-15"
+            ]
+          },
+          {
+            "id": "dh-topico-12",
+            "topico": "Tribunal Penal Internacional: Estatuto de Roma e Decreto nº 4.388/2002.",
+            "metas_texto": "16",
+            "metas_numeros": [
+              16
+            ],
+            "meta_ids": [
+              "dh-meta-16"
+            ]
+          },
+          {
+            "id": "dh-topico-13",
+            "topico": "Carta das Nações Unidas, da qual faz parte integrante o anexo Estatuto da Corte Internacional de Justiça (Decreto nº 19.841/1945).",
+            "metas_texto": "17",
+            "metas_numeros": [
+              17
+            ],
+            "meta_ids": [
+              "dh-meta-17"
+            ]
+          },
+          {
+            "id": "dh-topico-14",
+            "topico": "Protocolos para Atuação e Julgamento na Justiça do Trabalho.",
+            "metas_texto": "18",
+            "metas_numeros": [
+              18
+            ],
+            "meta_ids": [
+              "dh-meta-18"
+            ]
+          }
+        ]
+      },
+      {
+        "sigla": "LEG",
+        "nome": "LEGISLAÇÃO ESPECÍFICA",
+        "topicos": [
+          {
+            "id": "leg-topico-1",
+            "topico": "Noções de Sustentabilidade: Resolução CNJ nº 400/2021 (Dispõe sobre a política de sustentabilidade no âmbito do Poder Judiciário).",
+            "metas_texto": "1",
+            "metas_numeros": [
+              1
+            ],
+            "meta_ids": [
+              "leg-meta-1"
+            ]
+          },
+          {
+            "id": "leg-topico-2",
+            "topico": "Resolução CNJ nº 351/2020 (Institui no âmbito do Poder Judiciário, a Política de Prevenção e Enfrentamento do Assédio Moral, do Assédio Sexual e da Discriminação).",
+            "metas_texto": "2",
+            "metas_numeros": [
+              2
+            ],
+            "meta_ids": [
+              "leg-meta-2"
+            ]
+          },
+          {
+            "id": "leg-topico-3",
+            "topico": "Resolução CSJT nº 360/2023 (Política de Prevenção e Enfrentamento da Violência, do Assédio e de Todas as Formas de Discriminação no âmbito da Justiça do Trabalho de primeiro e segundo graus).",
+            "metas_texto": "3",
+            "metas_numeros": [
+              3
+            ],
+            "meta_ids": [
+              "leg-meta-3"
+            ]
+          },
+          {
+            "id": "leg-topico-4",
+            "topico": "Código de Conduta e Valores Éticos do Tribunal Regional do Trabalho da 4ª Região (Portaria GP.TRT4 nº 4.573, de 14 de Agosto de 2023. Texto compilado com as alterações promovidas pela Portaria GP.TRT4 nº 2.808 /2025).",
+            "metas_texto": "5",
+            "metas_numeros": [
+              5
+            ],
+            "meta_ids": [
+              "leg-meta-5"
+            ]
+          },
+          {
+            "id": "leg-topico-5",
+            "topico": "Regimento Interno do Tribunal Regional do Trabalho da 4ª Região (atualizado até a RA nº 31, de 17.08.2026, que aprovou o Assento Regimental nº 04/2026 (RA disponibilizada no DEJT de 04.09.2026, considerada publicada em 08.09.2026).",
+            "metas_texto": "6 e 7",
+            "metas_numeros": [
+              6,
+              7
+            ],
+            "meta_ids": [
+              "leg-meta-6",
+              "leg-meta-7"
+            ]
+          }
+        ]
+      },
+      {
+        "sigla": "DC",
+        "nome": "DIREITO CONSTITUCIONAL",
+        "topicos": [
+          {
+            "id": "dc-topico-1",
+            "topico": "Da aplicabilidade das normas constitucionais: normas de eficácia plena, contida e limitada; normas programáticas.",
+            "metas_texto": "1",
+            "metas_numeros": [
+              1
+            ],
+            "meta_ids": [
+              "dc-meta-1"
+            ]
+          },
+          {
+            "id": "dc-topico-2",
+            "topico": "Princípios fundamentais.",
+            "metas_texto": "1",
+            "metas_numeros": [
+              1
+            ],
+            "meta_ids": [
+              "dc-meta-1"
+            ]
+          },
+          {
+            "id": "dc-topico-3",
+            "topico": "Dos direitos e garantias fundamentais: dos direitos e deveres individuais e coletivos.",
+            "metas_texto": "2",
+            "metas_numeros": [
+              2
+            ],
+            "meta_ids": [
+              "dc-meta-2"
+            ]
+          },
+          {
+            "id": "dc-topico-4",
+            "topico": "Dos direitos sociais.",
+            "metas_texto": "3",
+            "metas_numeros": [
+              3
+            ],
+            "meta_ids": [
+              "dc-meta-3"
+            ]
+          },
+          {
+            "id": "dc-topico-5",
+            "topico": "Dos direitos de nacionalidade.",
+            "metas_texto": "3",
+            "metas_numeros": [
+              3
+            ],
+            "meta_ids": [
+              "dc-meta-3"
+            ]
+          },
+          {
+            "id": "dc-topico-6",
+            "topico": "Dos direitos políticos.",
+            "metas_texto": "4",
+            "metas_numeros": [
+              4
+            ],
+            "meta_ids": [
+              "dc-meta-4"
+            ]
+          },
+          {
+            "id": "dc-topico-7",
+            "topico": "Dos partidos políticos.",
+            "metas_texto": "4",
+            "metas_numeros": [
+              4
+            ],
+            "meta_ids": [
+              "dc-meta-4"
+            ]
+          },
+          {
+            "id": "dc-topico-8",
+            "topico": "Da organização do Estado: da organização político- administrativa: da União; dos Estados Federados; dos Municípios; Do Distrito Federal; dos Territórios; da intervenção.",
+            "metas_texto": "6",
+            "metas_numeros": [
+              6
+            ],
+            "meta_ids": [
+              "dc-meta-6"
+            ]
+          },
+          {
+            "id": "dc-topico-9",
+            "topico": "Da organização dos Poderes. Do Poder Legislativo: do processo legislativo.",
+            "metas_texto": "8",
+            "metas_numeros": [
+              8
+            ],
+            "meta_ids": [
+              "dc-meta-8"
+            ]
+          },
+          {
+            "id": "dc-topico-10",
+            "topico": "Da fiscalização contábil, financeira e orçamentária.",
+            "metas_texto": "9",
+            "metas_numeros": [
+              9
+            ],
+            "meta_ids": [
+              "dc-meta-9"
+            ]
+          },
+          {
+            "id": "dc-topico-11",
+            "topico": "Do Poder Executivo: do Presidente e do Vice-Presidente da República; Das atribuições e responsabilidades do Presidente da República.",
+            "metas_texto": "9",
+            "metas_numeros": [
+              9
+            ],
+            "meta_ids": [
+              "dc-meta-9"
+            ]
+          },
+          {
+            "id": "dc-topico-12",
+            "topico": "Do Poder Judiciário: disposições gerais.",
+            "metas_texto": "11",
+            "metas_numeros": [
+              11
+            ],
+            "meta_ids": [
+              "dc-meta-11"
+            ]
+          },
+          {
+            "id": "dc-topico-13",
+            "topico": "Do Supremo Tribunal Federal.",
+            "metas_texto": "12",
+            "metas_numeros": [
+              12
+            ],
+            "meta_ids": [
+              "dc-meta-12"
+            ]
+          },
+          {
+            "id": "dc-topico-14",
+            "topico": "Do Conselho Nacional de Justiça: organização e competência.",
+            "metas_texto": "12",
+            "metas_numeros": [
+              12
+            ],
+            "meta_ids": [
+              "dc-meta-12"
+            ]
+          },
+          {
+            "id": "dc-topico-15",
+            "topico": "Do Superior Tribunal de Justiça.",
+            "metas_texto": "12",
+            "metas_numeros": [
+              12
+            ],
+            "meta_ids": [
+              "dc-meta-12"
+            ]
+          },
+          {
+            "id": "dc-topico-16",
+            "topico": "Do Tribunal Superior do Trabalho, dos Tribunais Regionais do Trabalho e dos Juízes do Trabalho. Do Conselho Superior da Justiça do Trabalho: organização e competência.",
+            "metas_texto": "13",
+            "metas_numeros": [
+              13
+            ],
+            "meta_ids": [
+              "dc-meta-13"
+            ]
+          },
+          {
+            "id": "dc-topico-17",
+            "topico": "Das funções essenciais à Justiça: do Ministério Público; da Advocacia Pública; da Advocacia e da Defensoria Pública.",
+            "metas_texto": "13",
+            "metas_numeros": [
+              13
+            ],
+            "meta_ids": [
+              "dc-meta-13"
+            ]
+          },
+          {
+            "id": "dc-topico-18",
+            "topico": "Controle de constitucionalidade: ação direta de inconstitucionalidade; ação declaratória de constitucionalidade e arguição de descumprimento de preceito fundamental.",
+            "metas_texto": "14",
+            "metas_numeros": [
+              14
+            ],
+            "meta_ids": [
+              "dc-meta-14"
+            ]
+          },
+          {
+            "id": "dc-topico-19",
+            "topico": "Ato administrativo: conceito, características e atributos; elementos e requisitos de validade; classificação dos atos administrativos; formação e efeitos; extinção, revogação, invalidação e convalidação; cassação e caducidade.",
+            "metas_texto": "3 e 4",
+            "metas_numeros": [
+              3,
+              4
+            ],
+            "meta_ids": [
+              "dc-meta-3",
+              "dc-meta-4"
+            ]
+          }
+        ]
+      },
+      {
+        "sigla": "DA",
+        "nome": "DIREITO ADMINISTRATIVO (LEGISLAÇÃO)",
+        "topicos": [
+          {
+            "id": "da-topico-1",
+            "topico": "Agentes públicos: classificação; cargo, emprego e função pública; provimento e investidura; exercício e afastamentos. Direito de Greve. Regime constitucional dos servidores públicos na Constituição Federal de 1988. Regime de emprego público e disposições da Consolidação das Leis do Trabalho (CLT) aplicáveis. Responsabilidade civil, administrativa e penal dos agentes públicos. Regime e processo administrativo disciplinar. Regime jurídico dos servidores públicos civis da União, das autarquias e das fundações públicas federais (Lei nº 8.112/1990 consolidada nos termos da Lei nº 9.527/1997 e alterações).",
+            "metas_texto": "1 a 3",
+            "metas_numeros": [
+              1,
+              2,
+              3
+            ],
+            "meta_ids": [
+              "da-meta-1",
+              "da-meta-2",
+              "da-meta-3"
+            ]
+          },
+          {
+            "id": "da-topico-2",
+            "topico": "Lei de licitações e contratos administrativos (Lei nº 14.133/2021 e suas alterações). Licitação: conceito, natureza jurídica, objeto e finalidade; princípios básicos e correlatos; modalidades; obrigatoriedade, dispensa e inexigibilidade; procedimento licitatório; anulação, revogação e recursos administrativos; sanções e procedimento sancionatório; crimes em licitações e contratos administrativos. Contrato administrativo: conceito, principais características e espécies; formalização, execução e inexecução; duração, prorrogação, renovação e extinção; revisão e rescisão; reajustamento.",
+            "metas_texto": "5 a 9",
+            "metas_numeros": [
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "meta_ids": [
+              "da-meta-5",
+              "da-meta-6",
+              "da-meta-7",
+              "da-meta-8",
+              "da-meta-9"
+            ]
+          },
+          {
+            "id": "da-topico-3",
+            "topico": "Processo administrativo no âmbito da Administração Pública Federal (Lei nº 9.784/1999 e suas alterações).",
+            "metas_texto": "11",
+            "metas_numeros": [
+              11
+            ],
+            "meta_ids": [
+              "da-meta-11"
+            ]
+          },
+          {
+            "id": "da-topico-4",
+            "topico": "Sanções aplicáveis em virtude da prática de atos de improbidade administrativa (Lei nº 8.429/1992 e suas alterações).",
+            "metas_texto": "12",
+            "metas_numeros": [
+              12
+            ],
+            "meta_ids": [
+              "da-meta-12"
+            ]
+          },
+          {
+            "id": "da-topico-5",
+            "topico": "Lei nº 11.416/2006 (dispõe sobre as carreiras dos servidores públicos do Poder Judiciário Federal).",
+            "metas_texto": "13",
+            "metas_numeros": [
+              13
+            ],
+            "meta_ids": [
+              "da-meta-13"
+            ]
+          },
+          {
+            "id": "da-topico-6",
+            "topico": "Crimes de abuso de autoridade (Lei nº 13.869/2019 e suas alterações).",
+            "metas_texto": "13",
+            "metas_numeros": [
+              13
+            ],
+            "meta_ids": [
+              "da-meta-13"
+            ]
+          }
+        ]
+      },
+      {
+        "sigla": "ADM",
+        "nome": "ADMINISTRAÇÃO PÚBLICA",
+        "topicos": [
+          {
+            "id": "adm-topico-1",
+            "topico": "Evolução das Teorias das Organizações.",
+            "metas_texto": "1",
+            "metas_numeros": [
+              1
+            ],
+            "meta_ids": [
+              "adm-meta-1"
+            ]
+          },
+          {
+            "id": "adm-topico-2",
+            "topico": "Processo organizacional: planejamento, direção, coordenação, comunicação, controle e avaliação.",
+            "metas_texto": "1",
+            "metas_numeros": [
+              1
+            ],
+            "meta_ids": [
+              "adm-meta-1"
+            ]
+          },
+          {
+            "id": "adm-topico-3",
+            "topico": "Gestão estratégica: planejamento estratégico, tático e operacional.",
+            "metas_texto": "2",
+            "metas_numeros": [
+              2
+            ],
+            "meta_ids": [
+              "adm-meta-2"
+            ]
+          },
+          {
+            "id": "adm-topico-4",
+            "topico": "Liderança.",
+            "metas_texto": "6",
+            "metas_numeros": [
+              6
+            ],
+            "meta_ids": [
+              "adm-meta-6"
+            ]
+          },
+          {
+            "id": "adm-topico-5",
+            "topico": "Motivação.",
+            "metas_texto": "7",
+            "metas_numeros": [
+              7
+            ],
+            "meta_ids": [
+              "adm-meta-7"
+            ]
+          },
+          {
+            "id": "adm-topico-6",
+            "topico": "Gestão da Qualidade: excelência nos serviços públicos.",
+            "metas_texto": "8 e 10",
+            "metas_numeros": [
+              8,
+              10
+            ],
+            "meta_ids": [
+              "adm-meta-8",
+              "adm-meta-10"
+            ]
+          },
+          {
+            "id": "adm-topico-7",
+            "topico": "Convergências e diferenças entre a gestão pública e a gestão privada.",
+            "metas_texto": "10",
+            "metas_numeros": [
+              10
+            ],
+            "meta_ids": [
+              "adm-meta-10"
+            ]
+          },
+          {
+            "id": "adm-topico-8",
+            "topico": "Gestão de resultados na produção de serviços públicos.",
+            "metas_texto": "10",
+            "metas_numeros": [
+              10
+            ],
+            "meta_ids": [
+              "adm-meta-10"
+            ]
+          },
+          {
+            "id": "adm-topico-9",
+            "topico": "Gestão de contratos.",
+            "metas_texto": "10",
+            "metas_numeros": [
+              10
+            ],
+            "meta_ids": [
+              "adm-meta-10"
+            ]
+          },
+          {
+            "id": "adm-topico-10",
+            "topico": "Gestão de pessoas do quadro próprio e terceirizadas.",
+            "metas_texto": "11",
+            "metas_numeros": [
+              11
+            ],
+            "meta_ids": [
+              "adm-meta-11"
+            ]
+          },
+          {
+            "id": "adm-topico-11",
+            "topico": "Gestão e avaliação de desempenho. Modelos de Avaliação de Desempenho.",
+            "metas_texto": "12",
+            "metas_numeros": [
+              12
+            ],
+            "meta_ids": [
+              "adm-meta-12"
+            ]
+          },
+          {
+            "id": "adm-topico-12",
+            "topico": "Gestão por Processos.",
+            "metas_texto": "14",
+            "metas_numeros": [
+              14
+            ],
+            "meta_ids": [
+              "adm-meta-14"
+            ]
+          },
+          {
+            "id": "adm-topico-13",
+            "topico": "Gestão por Projetos.",
+            "metas_texto": "15",
+            "metas_numeros": [
+              15
+            ],
+            "meta_ids": [
+              "adm-meta-15"
+            ]
+          },
+          {
+            "id": "adm-topico-14",
+            "topico": "Comunicação na gestão pública e gestão de redes organizacionais.",
+            "metas_texto": "16",
+            "metas_numeros": [
+              16
+            ],
+            "meta_ids": [
+              "adm-meta-16"
+            ]
+          },
+          {
+            "id": "adm-topico-15",
+            "topico": "Tipos de decisão e processo decisório.",
+            "metas_texto": "16",
+            "metas_numeros": [
+              16
+            ],
+            "meta_ids": [
+              "adm-meta-16"
+            ]
+          }
+        ]
+      },
+      {
+        "sigla": "DT",
+        "nome": "DIREITO DO TRABALHO",
+        "topicos": [
+          {
+            "id": "dt-topico-1",
+            "topico": "Dos direitos constitucionais dos trabalhadores (artigo 7º da Constituição Federal de 1988).",
+            "metas_texto": "2",
+            "metas_numeros": [
+              2
+            ],
+            "meta_ids": [
+              "dt-meta-2"
+            ]
+          },
+          {
+            "id": "dt-topico-2",
+            "topico": "Da relação de trabalho e da relação de emprego: requisitos e distinção.",
+            "metas_texto": "3",
+            "metas_numeros": [
+              3
+            ],
+            "meta_ids": [
+              "dt-meta-3"
+            ]
+          },
+          {
+            "id": "dt-topico-3",
+            "topico": "Dos sujeitos do contrato de trabalho stricto sensu: do empregado e do empregador: conceito e caracterização; dos poderes do empregador no contrato de trabalho. Do grupo econômico; da sucessão de empregadores; da responsabilidade solidária.",
+            "metas_texto": "3",
+            "metas_numeros": [
+              3
+            ],
+            "meta_ids": [
+              "dt-meta-3"
+            ]
+          },
+          {
+            "id": "dt-topico-4",
+            "topico": "Do contrato individual de trabalho: conceito, classificação e características.",
+            "metas_texto": "5",
+            "metas_numeros": [
+              5
+            ],
+            "meta_ids": [
+              "dt-meta-5"
+            ]
+          },
+          {
+            "id": "dt-topico-5",
+            "topico": "Da alteração do contrato de trabalho: alteração unilateral e bilateral; o jus variandi.",
+            "metas_texto": "6",
+            "metas_numeros": [
+              6
+            ],
+            "meta_ids": [
+              "dt-meta-6"
+            ]
+          },
+          {
+            "id": "dt-topico-6",
+            "topico": "Da suspensão e interrupção do contrato de trabalho: caracterização e distinção.",
+            "metas_texto": "6",
+            "metas_numeros": [
+              6
+            ],
+            "meta_ids": [
+              "dt-meta-6"
+            ]
+          },
+          {
+            "id": "dt-topico-7",
+            "topico": "Da rescisão do contrato de trabalho: das justas causas; da despedida indireta; da dispensa arbitrária; da culpa recíproca; da indenização.",
+            "metas_texto": "7",
+            "metas_numeros": [
+              7
+            ],
+            "meta_ids": [
+              "dt-meta-7"
+            ]
+          },
+          {
+            "id": "dt-topico-8",
+            "topico": "Do aviso prévio.",
+            "metas_texto": "9",
+            "metas_numeros": [
+              9
+            ],
+            "meta_ids": [
+              "dt-meta-9"
+            ]
+          },
+          {
+            "id": "dt-topico-9",
+            "topico": "Da duração do trabalho; da jornada de trabalho; dos períodos de descanso; do intervalo para repouso e alimentação; do descanso semanal remunerado; do trabalho noturno e do trabalho extraordinário.",
+            "metas_texto": "10",
+            "metas_numeros": [
+              10
+            ],
+            "meta_ids": [
+              "dt-meta-10"
+            ]
+          },
+          {
+            "id": "dt-topico-10",
+            "topico": "Do teletrabalho (Lei nº 13.467/2017).",
+            "metas_texto": "11",
+            "metas_numeros": [
+              11
+            ],
+            "meta_ids": [
+              "dt-meta-11"
+            ]
+          },
+          {
+            "id": "dt-topico-11",
+            "topico": "Das férias: do direito a férias e da sua duração; da concessão e da época das férias; da remuneração e do abono de férias.",
+            "metas_texto": "11",
+            "metas_numeros": [
+              11
+            ],
+            "meta_ids": [
+              "dt-meta-11"
+            ]
+          },
+          {
+            "id": "dt-topico-12",
+            "topico": "Do salário e da remuneração: conceito e distinções; composição do salário; modalidades de salário; formas e meios de pagamento do salário; 13º salário. Do salário mínimo; irredutibilidade e garantia.",
+            "metas_texto": "13 e 14",
+            "metas_numeros": [
+              13,
+              14
+            ],
+            "meta_ids": [
+              "dt-meta-13",
+              "dt-meta-14"
+            ]
+          },
+          {
+            "id": "dt-topico-13",
+            "topico": "Da segurança e medicina no trabalho: das atividades perigosas ou insalubres.",
+            "metas_texto": "14",
+            "metas_numeros": [
+              14
+            ],
+            "meta_ids": [
+              "dt-meta-14"
+            ]
+          },
+          {
+            "id": "dt-topico-14",
+            "topico": "Do Fundo de Garantia do Tempo de Serviço (FGTS).",
+            "metas_texto": "15",
+            "metas_numeros": [
+              15
+            ],
+            "meta_ids": [
+              "dt-meta-15"
+            ]
+          },
+          {
+            "id": "dt-topico-15",
+            "topico": "Do direito coletivo do trabalho: das convenções e acordos coletivos de trabalho.",
+            "metas_texto": "16",
+            "metas_numeros": [
+              16
+            ],
+            "meta_ids": [
+              "dt-meta-16"
+            ]
+          },
+          {
+            "id": "dt-topico-16",
+            "topico": "Da prescrição e decadência.",
+            "metas_texto": "18",
+            "metas_numeros": [
+              18
+            ],
+            "meta_ids": [
+              "dt-meta-18"
+            ]
+          },
+          {
+            "id": "dt-topico-17",
+            "topico": "Da proteção ao trabalho da mulher; da estabilidade da gestante; da licença-maternidade.",
+            "metas_texto": "18 e 9",
+            "metas_numeros": [
+              9,
+              18
+            ],
+            "meta_ids": [
+              "dt-meta-9",
+              "dt-meta-18"
+            ]
+          },
+          {
+            "id": "dt-topico-18",
+            "topico": "Da proteção ao trabalho do menor.",
+            "metas_texto": "19",
+            "metas_numeros": [
+              19
+            ],
+            "meta_ids": [
+              "dt-meta-19"
+            ]
+          },
+          {
+            "id": "dt-topico-19",
+            "topico": "Das comissões de Conciliação Prévia.",
+            "metas_texto": "19",
+            "metas_numeros": [
+              19
+            ],
+            "meta_ids": [
+              "dt-meta-19"
+            ]
+          },
+          {
+            "id": "dt-topico-20",
+            "topico": "Dano moral e material nas relações de trabalho.",
+            "metas_texto": "19",
+            "metas_numeros": [
+              19
+            ],
+            "meta_ids": [
+              "dt-meta-19"
+            ]
+          }
+        ]
+      },
+      {
+        "sigla": "DPT",
+        "nome": "DIREITO PROCESSUAL DO TRABALHO",
+        "topicos": [
+          {
+            "id": "dpt-topico-1",
+            "topico": "Da Justiça do Trabalho: organização e competência. Das Varas do Trabalho e dos Tribunais Regionais do Trabalho: jurisdição e competência. Dos serviços auxiliares da Justiça do Trabalho: das secretarias das Varas do Trabalho e dos distribuidores.",
+            "metas_texto": "1",
+            "metas_numeros": [
+              1
+            ],
+            "meta_ids": [
+              "dpt-meta-1"
+            ]
+          },
+          {
+            "id": "dpt-topico-2",
+            "topico": "Do processo judiciário do trabalho: princípios gerais do processo trabalhista (aplicação subsidiária do Código de Processo Civil).",
+            "metas_texto": "2",
+            "metas_numeros": [
+              2
+            ],
+            "meta_ids": [
+              "dpt-meta-2"
+            ]
+          },
+          {
+            "id": "dpt-topico-3",
+            "topico": "Dos atos, termos e prazos processuais.",
+            "metas_texto": "3",
+            "metas_numeros": [
+              3
+            ],
+            "meta_ids": [
+              "dpt-meta-3"
+            ]
+          },
+          {
+            "id": "dpt-topico-4",
+            "topico": "Das custas e emolumentos.",
+            "metas_texto": "4",
+            "metas_numeros": [
+              4
+            ],
+            "meta_ids": [
+              "dpt-meta-4"
+            ]
+          },
+          {
+            "id": "dpt-topico-5",
+            "topico": "Das partes e procuradores; do jus postulandi; da substituição e representação processuais; da assistência judiciária; dos honorários de advogado.",
+            "metas_texto": "6",
+            "metas_numeros": [
+              6
+            ],
+            "meta_ids": [
+              "dpt-meta-6"
+            ]
+          },
+          {
+            "id": "dpt-topico-6",
+            "topico": "Das audiências: de conciliação, de instrução e de julgamento; da notificação das partes; do arquivamento do processo; da revelia e confissão.",
+            "metas_texto": "6 e 7",
+            "metas_numeros": [
+              6,
+              7
+            ],
+            "meta_ids": [
+              "dpt-meta-6",
+              "dpt-meta-7"
+            ]
+          },
+          {
+            "id": "dpt-topico-7",
+            "topico": "Dos dissídios individuais: da forma de reclamação e notificação; da reclamação escrita e verbal; da legitimidade para ajuizar. Do procedimento ordinário e sumaríssimo.",
+            "metas_texto": "7",
+            "metas_numeros": [
+              7
+            ],
+            "meta_ids": [
+              "dpt-meta-7"
+            ]
+          },
+          {
+            "id": "dpt-topico-8",
+            "topico": "Execução: Procedimentos; Embargos à execução; Praça e leilão; Arrematação.",
+            "metas_texto": "8",
+            "metas_numeros": [
+              8
+            ],
+            "meta_ids": [
+              "dpt-meta-8"
+            ]
+          },
+          {
+            "id": "dpt-topico-9",
+            "topico": "Recursos no processo do trabalho.",
+            "metas_texto": "10 e 11",
+            "metas_numeros": [
+              10,
+              11
+            ],
+            "meta_ids": [
+              "dpt-meta-10",
+              "dpt-meta-11"
+            ]
+          },
+          {
+            "id": "dpt-topico-10",
+            "topico": "Informatização do Processo Judicial (Lei nº 11.419/2006 e alterações).",
+            "metas_texto": "12",
+            "metas_numeros": [
+              12
+            ],
+            "meta_ids": [
+              "dpt-meta-12"
+            ]
+          }
+        ]
+      }
+    ],
+    "total_topicos": 116
+  },
+  "ajaj": {
+    "cargo": "Analista Judiciário - Área Judiciária (AJAJ / OJAF)",
+    "sigla_cargo": "AJAJ",
+    "disciplinas": [
+      {
+        "sigla": "PORT",
+        "nome": "PORTUGUÊS",
+        "topicos": [
+          {
+            "id": "port-topico-1",
+            "topico": "Ortografia e acentuação.",
+            "metas_texto": "1",
+            "metas_numeros": [
+              1
+            ],
+            "meta_ids": [
+              "port-meta-1"
+            ]
+          },
+          {
+            "id": "port-topico-2",
+            "topico": "Elementos estruturais e processos de formação de palavras.",
+            "metas_texto": "2",
+            "metas_numeros": [
+              2
+            ],
+            "meta_ids": [
+              "port-meta-2"
+            ]
+          },
+          {
+            "id": "port-topico-3",
+            "topico": "Morfossintaxe.",
+            "metas_texto": "2 a 7",
+            "metas_numeros": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "meta_ids": [
+              "port-meta-2",
+              "port-meta-3",
+              "port-meta-4",
+              "port-meta-5",
+              "port-meta-6",
+              "port-meta-7"
+            ]
+          },
+          {
+            "id": "port-topico-4",
+            "topico": "Conectivos. Coordenação e subordinação.",
+            "metas_texto": "3 e 7",
+            "metas_numeros": [
+              3,
+              7
+            ],
+            "meta_ids": [
+              "port-meta-3",
+              "port-meta-7"
+            ]
+          },
+          {
+            "id": "port-topico-5",
+            "topico": "Pronomes.",
+            "metas_texto": "3",
+            "metas_numeros": [
+              3
+            ],
+            "meta_ids": [
+              "port-meta-3"
+            ]
+          },
+          {
+            "id": "port-topico-6",
+            "topico": "Correlação de tempos e modos verbais. Flexão nominal e flexão verbal.",
+            "metas_texto": "4",
+            "metas_numeros": [
+              4
+            ],
+            "meta_ids": [
+              "port-meta-4"
+            ]
+          },
+          {
+            "id": "port-topico-7",
+            "topico": "Pontuação.",
+            "metas_texto": "8",
+            "metas_numeros": [
+              8
+            ],
+            "meta_ids": [
+              "port-meta-8"
+            ]
+          },
+          {
+            "id": "port-topico-8",
+            "topico": "Vozes do verbo.",
+            "metas_texto": "9",
+            "metas_numeros": [
+              9
+            ],
+            "meta_ids": [
+              "port-meta-9"
+            ]
+          },
+          {
+            "id": "port-topico-9",
+            "topico": "Concordância nominal e concordância verbal.",
+            "metas_texto": "10",
+            "metas_numeros": [
+              10
+            ],
+            "meta_ids": [
+              "port-meta-10"
+            ]
+          },
+          {
+            "id": "port-topico-10",
+            "topico": "Regência nominal e regência verbal.",
+            "metas_texto": "10",
+            "metas_numeros": [
+              10
+            ],
+            "meta_ids": [
+              "port-meta-10"
+            ]
+          },
+          {
+            "id": "port-topico-11",
+            "topico": "Emprego do sinal indicativo de crase.",
+            "metas_texto": "10",
+            "metas_numeros": [
+              10
+            ],
+            "meta_ids": [
+              "port-meta-10"
+            ]
+          },
+          {
+            "id": "port-topico-12",
+            "topico": "Compreensão e interpretação de textos de gêneros variados. Relação do texto com seu contexto histórico. Intertextualidade.",
+            "metas_texto": "12 e 14",
+            "metas_numeros": [
+              12,
+              14
+            ],
+            "meta_ids": [
+              "port-meta-12",
+              "port-meta-14"
+            ]
+          },
+          {
+            "id": "port-topico-13",
+            "topico": "Denotação e conotação. Sinonímia e antonímia.",
+            "metas_texto": "13",
+            "metas_numeros": [
+              13
+            ],
+            "meta_ids": [
+              "port-meta-13"
+            ]
+          },
+          {
+            "id": "port-topico-14",
+            "topico": "Redação (confronto e reconhecimento de frases corretas e incorretas; organização e reorganização de orações e períodos; equivalência e transformação de estruturas).",
+            "metas_texto": "15",
+            "metas_numeros": [
+              15
+            ],
+            "meta_ids": [
+              "port-meta-15"
+            ]
+          },
+          {
+            "id": "port-topico-15",
+            "topico": "Discurso direto, discurso indireto e discurso indireto livre.",
+            "metas_texto": "16",
+            "metas_numeros": [
+              16
+            ],
+            "meta_ids": [
+              "port-meta-16"
+            ]
+          },
+          {
+            "id": "port-topico-16",
+            "topico": "Figuras de linguagem.",
+            "metas_texto": "16",
+            "metas_numeros": [
+              16
+            ],
+            "meta_ids": [
+              "port-meta-16"
+            ]
+          },
+          {
+            "id": "port-topico-17",
+            "topico": "Redação Oficial.",
+            "metas_texto": "17",
+            "metas_numeros": [
+              17
+            ],
+            "meta_ids": [
+              "port-meta-17"
+            ]
+          }
+        ]
+      },
+      {
+        "sigla": "RLM",
+        "nome": "MATEMÁTICA E RACIOCÍNIO LÓGICO",
+        "topicos": [
+          {
+            "id": "rlm-topico-1",
+            "topico": "Números inteiros e racionais: operações (adição, subtração, multiplicação, divisão, potenciação); expressões numéricas; múltiplos e divisores de números naturais; problemas.",
+            "metas_texto": "1 e 2",
+            "metas_numeros": [
+              1,
+              2
+            ],
+            "meta_ids": [
+              "rlm-meta-1",
+              "rlm-meta-2"
+            ]
+          },
+          {
+            "id": "rlm-topico-2",
+            "topico": "Frações e operações com frações.",
+            "metas_texto": "3",
+            "metas_numeros": [
+              3
+            ],
+            "meta_ids": [
+              "rlm-meta-3"
+            ]
+          },
+          {
+            "id": "rlm-topico-3",
+            "topico": "Números e grandezas proporcionais: razões e proporções; divisão em partes proporcionais; regra de três; porcentagem e problemas envolvendo regra de três simples, cálculos de porcentagem, acréscimos e descontos.",
+            "metas_texto": "6 e 7",
+            "metas_numeros": [
+              6,
+              7
+            ],
+            "meta_ids": [
+              "rlm-meta-6",
+              "rlm-meta-7"
+            ]
+          },
+          {
+            "id": "rlm-topico-4",
+            "topico": "Noções de Estatísticas: medidas de tendência central (moda, mediana, média aritmética simples e ponderada) e de dispersão (desvio médio, amplitude, variância, desvio padrão); leitura e interpretação de gráficos (histogramas, setores, infográficos) e tabelas.",
+            "metas_texto": "8",
+            "metas_numeros": [
+              8
+            ],
+            "meta_ids": [
+              "rlm-meta-8"
+            ]
+          },
+          {
+            "id": "rlm-topico-5",
+            "topico": "Estrutura lógica de relações arbitrárias entre pessoas, lugares, objetos ou eventos fictícios; deduzir novas informações das relações fornecidas e avaliar as condições usadas para estabelecer a estrutura daquelas relações. Compreensão e elaboração da lógica das situações por meio de: raciocínio verbal, raciocínio matemático, raciocínio sequencial, orientação espacial e temporal, formação de conceitos, discriminação de elementos. Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas.",
+            "metas_texto": "10 a 12",
+            "metas_numeros": [
+              10,
+              11,
+              12
+            ],
+            "meta_ids": [
+              "rlm-meta-10",
+              "rlm-meta-11",
+              "rlm-meta-12"
+            ]
+          }
+        ]
+      },
+      {
+        "sigla": "INFO",
+        "nome": "INFORMÁTICA",
+        "topicos": [
+          {
+            "id": "info-topico-1",
+            "topico": "Noções de sistema operacional: Windows 10 e 11. Conceitos de organização e de gerenciamento de informações: Arquivos, pastas e programas.",
+            "metas_texto": "1 e 2",
+            "metas_numeros": [
+              1,
+              2
+            ],
+            "meta_ids": [
+              "info-meta-1",
+              "info-meta-2"
+            ]
+          },
+          {
+            "id": "info-topico-2",
+            "topico": "Redes de Computadores: Conceitos básicos, ferramentas, aplicativos e procedimentos de internet e intranet.",
+            "metas_texto": "8",
+            "metas_numeros": [
+              8
+            ],
+            "meta_ids": [
+              "info-meta-8"
+            ]
+          },
+          {
+            "id": "info-topico-3",
+            "topico": "Navegadores web: Mozilla Firefox, Google Chrome, Microsoft Edge.",
+            "metas_texto": "9",
+            "metas_numeros": [
+              9
+            ],
+            "meta_ids": [
+              "info-meta-9"
+            ]
+          },
+          {
+            "id": "info-topico-4",
+            "topico": "Sítios de busca e pesquisa na internet: Utilização de mecanismos de busca como Google, Bing.",
+            "metas_texto": "10",
+            "metas_numeros": [
+              10
+            ],
+            "meta_ids": [
+              "info-meta-10"
+            ]
+          },
+          {
+            "id": "info-topico-5",
+            "topico": "Segurança da informação: Procedimentos de segurança; noções de vírus, worms e outras pragas virtuais; aplicativos para segurança (antivírus, firewall, antispyware etc.); boas práticas de segurança cibernética, incluindo autenticação de dois fatores e gestão de senhas.",
+            "metas_texto": "11",
+            "metas_numeros": [
+              11
+            ],
+            "meta_ids": [
+              "info-meta-11"
+            ]
+          }
+        ]
+      },
+      {
+        "sigla": "DH",
+        "nome": "DIREITOS HUMANOS",
+        "topicos": [
+          {
+            "id": "dh-topico-1",
+            "topico": "Pacto Internacional dos Direitos Civis e Políticos (PIDCP) e protocolos facultativos.",
+            "metas_texto": "4",
+            "metas_numeros": [
+              4
+            ],
+            "meta_ids": [
+              "dh-meta-4"
+            ]
+          },
+          {
+            "id": "dh-topico-2",
+            "topico": "Pacto Internacional dos Direitos Econômicos, Sociais e Culturais (PIDESC) e protocolos facultativos.",
+            "metas_texto": "5",
+            "metas_numeros": [
+              5
+            ],
+            "meta_ids": [
+              "dh-meta-5"
+            ]
+          },
+          {
+            "id": "dh-topico-3",
+            "topico": "Convenção sobre a eliminação de todas as formas de discriminação racial.",
+            "metas_texto": "8",
+            "metas_numeros": [
+              8
+            ],
+            "meta_ids": [
+              "dh-meta-8"
+            ]
+          },
+          {
+            "id": "dh-topico-4",
+            "topico": "Convenção sobre a eliminação de todas as formas de discriminação contra a mulher e protocolo facultativo.",
+            "metas_texto": "9",
+            "metas_numeros": [
+              9
+            ],
+            "meta_ids": [
+              "dh-meta-9"
+            ]
+          },
+          {
+            "id": "dh-topico-5",
+            "topico": "Convenção sobre os direitos da criança e seus protocolos facultativos.",
+            "metas_texto": "10",
+            "metas_numeros": [
+              10
+            ],
+            "meta_ids": [
+              "dh-meta-10"
+            ]
+          },
+          {
+            "id": "dh-topico-6",
+            "topico": "Convenção sobre os direitos da pessoa com deficiência e seu protocolo facultativo.",
+            "metas_texto": "11",
+            "metas_numeros": [
+              11
+            ],
+            "meta_ids": [
+              "dh-meta-11"
+            ]
+          },
+          {
+            "id": "dh-topico-7",
+            "topico": "Declaração das Nações Unidas sobre os direitos dos povos indígenas.",
+            "metas_texto": "13",
+            "metas_numeros": [
+              13
+            ],
+            "meta_ids": [
+              "dh-meta-13"
+            ]
+          },
+          {
+            "id": "dh-topico-8",
+            "topico": "Perspectiva de Gênero no Poder Judiciário e o Comitê de Incentivo à Participação Institucional Feminina no Poder Judiciário (Resolução CNJ nº 492/2023); Programa de Equidade de Raça, Gênero e Diversidade no âmbito da Justiça do Trabalho (Resolução CSJT nº 368/2023).",
+            "metas_texto": "13",
+            "metas_numeros": [
+              13
+            ],
+            "meta_ids": [
+              "dh-meta-13"
+            ]
+          },
+          {
+            "id": "dh-topico-9",
+            "topico": "Convenção relativa à proteção do patrimônio mundial, cultural e natural - \"Declaração de Estocolmo\".",
+            "metas_texto": "14",
+            "metas_numeros": [
+              14
+            ],
+            "meta_ids": [
+              "dh-meta-14"
+            ]
+          },
+          {
+            "id": "dh-topico-10",
+            "topico": "Convenção sobre a diversidade biológica.",
+            "metas_texto": "15",
+            "metas_numeros": [
+              15
+            ],
+            "meta_ids": [
+              "dh-meta-15"
+            ]
+          },
+          {
+            "id": "dh-topico-11",
+            "topico": "Declaração Americana dos Direitos e Deveres do Homem.",
+            "metas_texto": "15",
+            "metas_numeros": [
+              15
+            ],
+            "meta_ids": [
+              "dh-meta-15"
+            ]
+          },
+          {
+            "id": "dh-topico-12",
+            "topico": "Tribunal Penal Internacional: Estatuto de Roma e Decreto nº 4.388/2002.",
+            "metas_texto": "16",
+            "metas_numeros": [
+              16
+            ],
+            "meta_ids": [
+              "dh-meta-16"
+            ]
+          },
+          {
+            "id": "dh-topico-13",
+            "topico": "Carta das Nações Unidas, da qual faz parte integrante o anexo Estatuto da Corte Internacional de Justiça (Decreto nº 19.841/1945).",
+            "metas_texto": "17",
+            "metas_numeros": [
+              17
+            ],
+            "meta_ids": [
+              "dh-meta-17"
+            ]
+          },
+          {
+            "id": "dh-topico-14",
+            "topico": "Protocolos para Atuação e Julgamento na Justiça do Trabalho.",
+            "metas_texto": "18",
+            "metas_numeros": [
+              18
+            ],
+            "meta_ids": [
+              "dh-meta-18"
+            ]
+          }
+        ]
+      },
+      {
+        "sigla": "LEG",
+        "nome": "LEGISLAÇÃO ESPECÍFICA",
+        "topicos": [
+          {
+            "id": "leg-topico-1",
+            "topico": "Noções de Sustentabilidade: Resolução CNJ nº 400/2021 (Dispõe sobre a política de sustentabilidade no âmbito do Poder Judiciário).",
+            "metas_texto": "1",
+            "metas_numeros": [
+              1
+            ],
+            "meta_ids": [
+              "leg-meta-1"
+            ]
+          },
+          {
+            "id": "leg-topico-2",
+            "topico": "Resolução CNJ nº 351/2020 (Institui no âmbito do Poder Judiciário, a Política de Prevenção e Enfrentamento do Assédio Moral, do Assédio Sexual e da Discriminação).",
+            "metas_texto": "2",
+            "metas_numeros": [
+              2
+            ],
+            "meta_ids": [
+              "leg-meta-2"
+            ]
+          },
+          {
+            "id": "leg-topico-3",
+            "topico": "Resolução CSJT nº 360/2023 (Política de Prevenção e Enfrentamento da Violência, do Assédio e de Todas as Formas de Discriminação no âmbito da Justiça do Trabalho de primeiro e segundo graus).",
+            "metas_texto": "3",
+            "metas_numeros": [
+              3
+            ],
+            "meta_ids": [
+              "leg-meta-3"
+            ]
+          },
+          {
+            "id": "leg-topico-4",
+            "topico": "Código de Conduta e Valores Éticos do Tribunal Regional do Trabalho da 4ª Região (Portaria GP.TRT4 nº 4.573, de 14 de Agosto de 2023. Texto compilado com as alterações promovidas pela Portaria GP.TRT4 nº 2.808 /2025).",
+            "metas_texto": "5",
+            "metas_numeros": [
+              5
+            ],
+            "meta_ids": [
+              "leg-meta-5"
+            ]
+          },
+          {
+            "id": "leg-topico-5",
+            "topico": "Regimento Interno do Tribunal Regional do Trabalho da 4ª Região (atualizado até a RA nº 31, de 17.08.2026, que aprovou o Assento Regimental nº 04/2026 (RA disponibilizada no DEJT de 04.09.2026, considerada publicada em 08.09.2026).",
+            "metas_texto": "6 e 7",
+            "metas_numeros": [
+              6,
+              7
+            ],
+            "meta_ids": [
+              "leg-meta-6",
+              "leg-meta-7"
+            ]
+          }
+        ]
+      },
+      {
+        "sigla": "DC",
+        "nome": "DIREITO CONSTITUCIONAL",
+        "topicos": [
+          {
+            "id": "dc-topico-1",
+            "topico": "Da aplicabilidade e interpretação das normas constitucionais; vigência e eficácia das normas constitucionais.",
+            "metas_texto": "1",
+            "metas_numeros": [
+              1
+            ],
+            "meta_ids": [
+              "dc-meta-1"
+            ]
+          },
+          {
+            "id": "dc-topico-2",
+            "topico": "Princípios fundamentais.",
+            "metas_texto": "1",
+            "metas_numeros": [
+              1
+            ],
+            "meta_ids": [
+              "dc-meta-1"
+            ]
+          },
+          {
+            "id": "dc-topico-3",
+            "topico": "Dos direitos e garantias fundamentais: dos direitos e deveres individuais e coletivos.",
+            "metas_texto": "2",
+            "metas_numeros": [
+              2
+            ],
+            "meta_ids": [
+              "dc-meta-2"
+            ]
+          },
+          {
+            "id": "dc-topico-4",
+            "topico": "Dos direitos sociais.",
+            "metas_texto": "3",
+            "metas_numeros": [
+              3
+            ],
+            "meta_ids": [
+              "dc-meta-3"
+            ]
+          },
+          {
+            "id": "dc-topico-5",
+            "topico": "Dos direitos de nacionalidade.",
+            "metas_texto": "3",
+            "metas_numeros": [
+              3
+            ],
+            "meta_ids": [
+              "dc-meta-3"
+            ]
+          },
+          {
+            "id": "dc-topico-6",
+            "topico": "Dos direitos políticos.",
+            "metas_texto": "4",
+            "metas_numeros": [
+              4
+            ],
+            "meta_ids": [
+              "dc-meta-4"
+            ]
+          },
+          {
+            "id": "dc-topico-7",
+            "topico": "Dos partidos políticos.",
+            "metas_texto": "4",
+            "metas_numeros": [
+              4
+            ],
+            "meta_ids": [
+              "dc-meta-4"
+            ]
+          },
+          {
+            "id": "dc-topico-8",
+            "topico": "Da organização do Estado: da organização político administrativa: da União; dos Estados Federados; dos Municípios; Do Distrito Federal; dos Territórios; da intervenção.",
+            "metas_texto": "6",
+            "metas_numeros": [
+              6
+            ],
+            "meta_ids": [
+              "dc-meta-6"
+            ]
+          },
+          {
+            "id": "dc-topico-9",
+            "topico": "Da Organização dos Poderes. Do Poder Legislativo: do processo legislativo.",
+            "metas_texto": "8",
+            "metas_numeros": [
+              8
+            ],
+            "meta_ids": [
+              "dc-meta-8"
+            ]
+          },
+          {
+            "id": "dc-topico-10",
+            "topico": "Da fiscalização contábil, financeira e orçamentária.",
+            "metas_texto": "9",
+            "metas_numeros": [
+              9
+            ],
+            "meta_ids": [
+              "dc-meta-9"
+            ]
+          },
+          {
+            "id": "dc-topico-11",
+            "topico": "Do Poder Executivo: do Presidente e do Vice-Presidente da República; Das atribuições e responsabilidades do Presidente da República; Dos Ministros de Estado.",
+            "metas_texto": "9",
+            "metas_numeros": [
+              9
+            ],
+            "meta_ids": [
+              "dc-meta-9"
+            ]
+          },
+          {
+            "id": "dc-topico-12",
+            "topico": "Do Poder Judiciário: disposições gerais.",
+            "metas_texto": "11",
+            "metas_numeros": [
+              11
+            ],
+            "meta_ids": [
+              "dc-meta-11"
+            ]
+          },
+          {
+            "id": "dc-topico-13",
+            "topico": "Do Supremo Tribunal Federal.",
+            "metas_texto": "12",
+            "metas_numeros": [
+              12
+            ],
+            "meta_ids": [
+              "dc-meta-12"
+            ]
+          },
+          {
+            "id": "dc-topico-14",
+            "topico": "Do Conselho Nacional de Justiça: organização e competência.",
+            "metas_texto": "12",
+            "metas_numeros": [
+              12
+            ],
+            "meta_ids": [
+              "dc-meta-12"
+            ]
+          },
+          {
+            "id": "dc-topico-15",
+            "topico": "Do Superior Tribunal de Justiça.",
+            "metas_texto": "12",
+            "metas_numeros": [
+              12
+            ],
+            "meta_ids": [
+              "dc-meta-12"
+            ]
+          },
+          {
+            "id": "dc-topico-16",
+            "topico": "Do Tribunal Superior do Trabalho, dos Tribunais Regionais do Trabalho e dos Juízes do Trabalho; do Conselho Superior da Justiça do Trabalho: organização e competência.",
+            "metas_texto": "13",
+            "metas_numeros": [
+              13
+            ],
+            "meta_ids": [
+              "dc-meta-13"
+            ]
+          },
+          {
+            "id": "dc-topico-17",
+            "topico": "Das funções essenciais à Justiça: do Ministério Público; da Advocacia Pública; da Advocacia e da Defensoria Pública.",
+            "metas_texto": "13",
+            "metas_numeros": [
+              13
+            ],
+            "meta_ids": [
+              "dc-meta-13"
+            ]
+          },
+          {
+            "id": "dc-topico-18",
+            "topico": "Controle de constitucionalidade: sistemas difuso e concentrado; ação direta de inconstitucionalidade; ação declaratória de constitucionalidade e arguição de descumprimento de preceito fundamental.",
+            "metas_texto": "14",
+            "metas_numeros": [
+              14
+            ],
+            "meta_ids": [
+              "dc-meta-14"
+            ]
+          },
+          {
+            "id": "dc-topico-19",
+            "topico": "Ato administrativo. Conceito, características e atributos. Elementos e requisitos de validade. Classificação dos atos administrativos. Formação e efeitos. Extinção, revogação, invalidação e convalidação. Cassação e caducidade.",
+            "metas_texto": "3 e 4",
+            "metas_numeros": [
+              3,
+              4
+            ],
+            "meta_ids": [
+              "dc-meta-3",
+              "dc-meta-4"
+            ]
+          },
+          {
+            "id": "dc-topico-20",
+            "topico": "Responsabilidade extracontratual do Estado.",
+            "metas_texto": "5",
+            "metas_numeros": [
+              5
+            ],
+            "meta_ids": [
+              "dc-meta-5"
+            ]
+          },
+          {
+            "id": "dc-topico-21",
+            "topico": "Bens Públicos. Formas de utilização dos bens públicos por terceiros.",
+            "metas_texto": "5",
+            "metas_numeros": [
+              5
+            ],
+            "meta_ids": [
+              "dc-meta-5"
+            ]
+          }
+        ]
+      },
+      {
+        "sigla": "DA",
+        "nome": "DIREITO ADMINISTRATIVO (LEGISLAÇÃO)",
+        "topicos": [
+          {
+            "id": "da-topico-1",
+            "topico": "Agentes públicos: classificação; cargo, emprego e função pública; provimento e investidura; exercício e afastamentos. Direito de Greve. Regime constitucional dos servidores públicos na Constituição Federal de 1988. Regime de emprego público e disposições da Consolidação das Leis do Trabalho (CLT) aplicáveis. Responsabilidade civil, administrativa e penal dos agentes públicos. Regime e processo administrativo disciplinar. Regime jurídico dos servidores públicos civis da União, das autarquias e das fundações públicas federais (Lei nº 8.112/1990 consolidada nos termos da Lei nº 9.527/1997 e suas alterações).",
+            "metas_texto": "1 a 3",
+            "metas_numeros": [
+              1,
+              2,
+              3
+            ],
+            "meta_ids": [
+              "da-meta-1",
+              "da-meta-2",
+              "da-meta-3"
+            ]
+          },
+          {
+            "id": "da-topico-2",
+            "topico": "Licitações e contratos administrativos (Lei nº 14.133 /2021 e suas alterações). Licitação: conceito, natureza jurídica, objeto e finalidade; princípios básicos e correlatos; modalidades; obrigatoriedade, dispensa e inexigibilidade; procedimento licitatório; anulação, revogação e recursos administrativos; sanções e procedimento sancionatório; crimes em licitações e contratos administrativos. Contrato administrativo: conceito, principais características e espécies; formalização, execução e inexecução; duração, prorrogação, renovação e extinção; revisão e rescisão; reajustamento.",
+            "metas_texto": "5 a 9",
+            "metas_numeros": [
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "meta_ids": [
+              "da-meta-5",
+              "da-meta-6",
+              "da-meta-7",
+              "da-meta-8",
+              "da-meta-9"
+            ]
+          },
+          {
+            "id": "da-topico-3",
+            "topico": "Convênios administrativos.",
+            "metas_texto": "11",
+            "metas_numeros": [
+              11
+            ],
+            "meta_ids": [
+              "da-meta-11"
+            ]
+          },
+          {
+            "id": "da-topico-4",
+            "topico": "Serviço público: conceito; classificação; princípios; formas de delegação de serviço público. Direitos dos usuários de serviço público. Concessão e permissão de serviços públicos (Lei nº 8.987/1995 e suas alterações). Extinção, reversão dos bens.",
+            "metas_texto": "12",
+            "metas_numeros": [
+              12
+            ],
+            "meta_ids": [
+              "da-meta-12"
+            ]
+          }
+        ]
+      },
+      {
+        "sigla": "CIV",
+        "nome": "DIREITO CIVIL",
+        "topicos": [
+          {
+            "id": "civ-topico-1",
+            "topico": "Processo administrativo no âmbito da Administração Pública Federal (Lei nº 9.784/1999 e suas alterações).",
+            "metas_texto": "13",
+            "metas_numeros": [
+              13
+            ],
+            "meta_ids": [
+              "civ-meta-13"
+            ]
+          },
+          {
+            "id": "civ-topico-2",
+            "topico": "Lei nº 11.416/2006 (dispõe sobre as carreiras dos servidores públicos do Poder Judiciário Federal).",
+            "metas_texto": "14",
+            "metas_numeros": [
+              14
+            ],
+            "meta_ids": [
+              "civ-meta-14"
+            ]
+          },
+          {
+            "id": "civ-topico-3",
+            "topico": "Lei de acesso a informações (Lei nº 12.527/2011 e suas alterações).",
+            "metas_texto": "14",
+            "metas_numeros": [
+              14
+            ],
+            "meta_ids": [
+              "civ-meta-14"
+            ]
+          },
+          {
+            "id": "civ-topico-4",
+            "topico": "Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709 /2018 com redação dada pela Lei nº 13.853/2019).",
+            "metas_texto": "15",
+            "metas_numeros": [
+              15
+            ],
+            "meta_ids": [
+              "civ-meta-15"
+            ]
+          },
+          {
+            "id": "civ-topico-5",
+            "topico": "Crimes de abuso de autoridade (Lei nº 13.869/2019 e suas alterações).",
+            "metas_texto": "15",
+            "metas_numeros": [
+              15
+            ],
+            "meta_ids": [
+              "civ-meta-15"
+            ]
+          },
+          {
+            "id": "civ-topico-6",
+            "topico": "Da Pessoa Natural. Personalidade e Capacidade. Direitos da Personalidade.",
+            "metas_texto": "1",
+            "metas_numeros": [
+              1
+            ],
+            "meta_ids": [
+              "civ-meta-1"
+            ]
+          },
+          {
+            "id": "civ-topico-7",
+            "topico": "Das Pessoas Jurídicas.",
+            "metas_texto": "2",
+            "metas_numeros": [
+              2
+            ],
+            "meta_ids": [
+              "civ-meta-2"
+            ]
+          },
+          {
+            "id": "civ-topico-8",
+            "topico": "Domicílio Civil.",
+            "metas_texto": "3",
+            "metas_numeros": [
+              3
+            ],
+            "meta_ids": [
+              "civ-meta-3"
+            ]
+          },
+          {
+            "id": "civ-topico-9",
+            "topico": "Dos Bens: classificação, afetação e desafetação.",
+            "metas_texto": "3",
+            "metas_numeros": [
+              3
+            ],
+            "meta_ids": [
+              "civ-meta-3"
+            ]
+          },
+          {
+            "id": "civ-topico-10",
+            "topico": "Do Negócio Jurídico: Conceito. Classificação. Elementos essenciais gerais. Elementos acidentais (condição, termo, encargo). Defeitos do negócio jurídico (erro ou ignorância, dolo, coação, estado de perigo, lesão, fraude contra credores), invalidade do negócio jurídico.",
+            "metas_texto": "4",
+            "metas_numeros": [
+              4
+            ],
+            "meta_ids": [
+              "civ-meta-4"
+            ]
+          },
+          {
+            "id": "civ-topico-11",
+            "topico": "Da prescrição e da decadência.",
+            "metas_texto": "5",
+            "metas_numeros": [
+              5
+            ],
+            "meta_ids": [
+              "civ-meta-5"
+            ]
+          },
+          {
+            "id": "civ-topico-12",
+            "topico": "Da prova.",
+            "metas_texto": "5",
+            "metas_numeros": [
+              5
+            ],
+            "meta_ids": [
+              "civ-meta-5"
+            ]
+          },
+          {
+            "id": "civ-topico-13",
+            "topico": "Do Direito das Obrigações.",
+            "metas_texto": "7",
+            "metas_numeros": [
+              7
+            ],
+            "meta_ids": [
+              "civ-meta-7"
+            ]
+          },
+          {
+            "id": "civ-topico-14",
+            "topico": "Dos contratos em geral e em espécie. Dos vícios redibitórios e da Evicção.",
+            "metas_texto": "8 a 10",
+            "metas_numeros": [
+              8,
+              9,
+              10
+            ],
+            "meta_ids": [
+              "civ-meta-8",
+              "civ-meta-9",
+              "civ-meta-10"
+            ]
+          },
+          {
+            "id": "civ-topico-15",
+            "topico": "Da responsabilidade civil.",
+            "metas_texto": "11",
+            "metas_numeros": [
+              11
+            ],
+            "meta_ids": [
+              "civ-meta-11"
+            ]
+          },
+          {
+            "id": "civ-topico-16",
+            "topico": "Do Direito de Empresa. Do nome empresarial.",
+            "metas_texto": "11",
+            "metas_numeros": [
+              11
+            ],
+            "meta_ids": [
+              "civ-meta-11"
+            ]
+          },
+          {
+            "id": "civ-topico-17",
+            "topico": "Direito das coisas. Posse. Teorias da posse. Conceito, classificação, aquisição, efeitos, proteção e perda da posse. Função social da posse. Teorias da função social da posse. Conceito, conteúdo e concretização da função social da posse. Função socioambiental da posse.",
+            "metas_texto": "13",
+            "metas_numeros": [
+              13
+            ],
+            "meta_ids": [
+              "civ-meta-13"
+            ]
+          },
+          {
+            "id": "civ-topico-18",
+            "topico": "Direitos reais. Propriedade. Conceito, classificação, aquisição, proteção e perda da propriedade. Função social da propriedade: conceito, conteúdo e concretização da função social da propriedade. Direitos de vizinhança. Condomínio geral. Condomínio edilício. Propriedade resolúvel. Propriedade fiduciária. Direitos reais sobre coisa alheia. Superfície. Servidões. Uso. Usufruto. Habitação. A concessão de uso especial para fins de moradia. A laje. Direito real à aquisição. Direito do promitente comprador. Compromisso de venda e compra. Adjudicação compulsória. Direitos reais em garantia. Penhor. Hipoteca.",
+            "metas_texto": "14 e 15",
+            "metas_numeros": [
+              14,
+              15
+            ],
+            "meta_ids": [
+              "civ-meta-14",
+              "civ-meta-15"
+            ]
+          },
+          {
+            "id": "civ-topico-19",
+            "topico": "Do direito de família. Esponsais. Casamento heteroafetivo e homoafetivo: capacidade, impedimentos, causas suspensivas, habilitação, celebração, eficácia, direitos e deveres. Dissolução do vínculo conjugal. Invalidade do casamento, separação e divórcio. Da proteção da pessoa dos filhos. Das relações de parentesco e da filiação. Do Poder Familiar. Direito patrimonial. Regime de bens: espécies. Pacto antenupcial. Meação e sucessão do cônjuge. Usufruto e administração de bens de filhos incapazes. Bem de família. União estável heteorafetiva e homoafetiva. Aspectos constitucionais. Características, estado, impedimentos, direitos, deveres e efeitos patrimoniais. Regime de bens, meação e sucessão do companheiro. Uniões estáveis concomitantes. Concubinato.",
+            "metas_texto": "17 e 18",
+            "metas_numeros": [
+              17,
+              18
+            ],
+            "meta_ids": [
+              "civ-meta-17",
+              "civ-meta-18"
+            ]
+          },
+          {
+            "id": "civ-topico-20",
+            "topico": "Sucessão. Disposições gerais. Herança. Vocação hereditária. Aceitação e renúncia. Exclusão da sucessão. Herança jacente. Herança vacante. Sucessão legítima e sucessão testamentária. Inventário e partilha. Arrolamentos. Alvarás judiciais. Partilha de bens e direitos.",
+            "metas_texto": "19",
+            "metas_numeros": [
+              19
+            ],
+            "meta_ids": [
+              "civ-meta-19"
+            ]
+          }
+        ]
+      },
+      {
+        "sigla": "CPC",
+        "nome": "DIREITO PROCESSUAL CIVIL",
+        "topicos": [
+          {
+            "id": "cpc-topico-1",
+            "topico": "Da jurisdição e da ação: conceito, natureza e características; das condições da ação.",
+            "metas_texto": "1",
+            "metas_numeros": [
+              1
+            ],
+            "meta_ids": [
+              "cpc-meta-1"
+            ]
+          },
+          {
+            "id": "cpc-topico-2",
+            "topico": "Da competência: em razão do valor e da matéria; competência funcional e territorial; modificações de competência e declaração de incompetência.",
+            "metas_texto": "2",
+            "metas_numeros": [
+              2
+            ],
+            "meta_ids": [
+              "cpc-meta-2"
+            ]
+          },
+          {
+            "id": "cpc-topico-3",
+            "topico": "Das partes e procuradores: da capacidade processual e postulatória; dos deveres das partes e de seus procuradores. Da sucessão das partes e dos procuradores.",
+            "metas_texto": "3",
+            "metas_numeros": [
+              3
+            ],
+            "meta_ids": [
+              "cpc-meta-3"
+            ]
+          },
+          {
+            "id": "cpc-topico-4",
+            "topico": "Do litisconsórcio e da assistência.",
+            "metas_texto": "4",
+            "metas_numeros": [
+              4
+            ],
+            "meta_ids": [
+              "cpc-meta-4"
+            ]
+          },
+          {
+            "id": "cpc-topico-5",
+            "topico": "Da intervenção de terceiros.",
+            "metas_texto": "4",
+            "metas_numeros": [
+              4
+            ],
+            "meta_ids": [
+              "cpc-meta-4"
+            ]
+          },
+          {
+            "id": "cpc-topico-6",
+            "topico": "Do Juiz. Magistratura. Auxiliares da Justiça.",
+            "metas_texto": "5",
+            "metas_numeros": [
+              5
+            ],
+            "meta_ids": [
+              "cpc-meta-5"
+            ]
+          },
+          {
+            "id": "cpc-topico-7",
+            "topico": "Do Ministério Público. Defensoria Pública. Advocacia.",
+            "metas_texto": "5",
+            "metas_numeros": [
+              5
+            ],
+            "meta_ids": [
+              "cpc-meta-5"
+            ]
+          },
+          {
+            "id": "cpc-topico-8",
+            "topico": "Dos atos processuais: da forma dos atos; dos prazos; da comunicação dos atos; das nulidades. Preclusão.",
+            "metas_texto": "7 e 8",
+            "metas_numeros": [
+              7,
+              8
+            ],
+            "meta_ids": [
+              "cpc-meta-7",
+              "cpc-meta-8"
+            ]
+          },
+          {
+            "id": "cpc-topico-9",
+            "topico": "Da tutela provisória.",
+            "metas_texto": "9",
+            "metas_numeros": [
+              9
+            ],
+            "meta_ids": [
+              "cpc-meta-9"
+            ]
+          },
+          {
+            "id": "cpc-topico-10",
+            "topico": "Da formação, suspensão e extinção do processo.",
+            "metas_texto": "9",
+            "metas_numeros": [
+              9
+            ],
+            "meta_ids": [
+              "cpc-meta-9"
+            ]
+          },
+          {
+            "id": "cpc-topico-11",
+            "topico": "Do processo de conhecimento: da petição inicial: requisitos, pedido e indeferimento. Valor da causa. Da resposta do réu: contestação, exceções e reconvenção. Da revelia. Do julgamento conforme o estado do processo. Da audiência: da conciliação e da instrução e julgamento.",
+            "metas_texto": "11",
+            "metas_numeros": [
+              11
+            ],
+            "meta_ids": [
+              "cpc-meta-11"
+            ]
+          },
+          {
+            "id": "cpc-topico-12",
+            "topico": "Das provas: ônus da prova; depoimento pessoal; confissão; provas documental e testemunhal.",
+            "metas_texto": "12",
+            "metas_numeros": [
+              12
+            ],
+            "meta_ids": [
+              "cpc-meta-12"
+            ]
+          },
+          {
+            "id": "cpc-topico-13",
+            "topico": "Da sentença e da coisa julgada.",
+            "metas_texto": "13",
+            "metas_numeros": [
+              13
+            ],
+            "meta_ids": [
+              "cpc-meta-13"
+            ]
+          },
+          {
+            "id": "cpc-topico-14",
+            "topico": "Da liquidação e do cumprimento da sentença. Impugnação ao cumprimento de sentença.",
+            "metas_texto": "13",
+            "metas_numeros": [
+              13
+            ],
+            "meta_ids": [
+              "cpc-meta-13"
+            ]
+          },
+          {
+            "id": "cpc-topico-15",
+            "topico": "Dos procedimentos especiais: ação de consignação em pagamento; embargos de terceiro; ação monitória; ações possessórias.",
+            "metas_texto": "15",
+            "metas_numeros": [
+              15
+            ],
+            "meta_ids": [
+              "cpc-meta-15"
+            ]
+          },
+          {
+            "id": "cpc-topico-16",
+            "topico": "Do processo de execução: da execução em geral; das diversas espécies de execução. Dos embargos à execução. Da suspensão e extinção do processo de execução.",
+            "metas_texto": "16 e 17",
+            "metas_numeros": [
+              16,
+              17
+            ],
+            "meta_ids": [
+              "cpc-meta-16",
+              "cpc-meta-17"
+            ]
+          },
+          {
+            "id": "cpc-topico-17",
+            "topico": "Da ação rescisória.",
+            "metas_texto": "19",
+            "metas_numeros": [
+              19
+            ],
+            "meta_ids": [
+              "cpc-meta-19"
+            ]
+          },
+          {
+            "id": "cpc-topico-18",
+            "topico": "Dos recursos: disposições gerais e recursos em espécie.",
+            "metas_texto": "20",
+            "metas_numeros": [
+              20
+            ],
+            "meta_ids": [
+              "cpc-meta-20"
+            ]
+          },
+          {
+            "id": "cpc-topico-19",
+            "topico": "Ação civil pública (Lei nº 7.347/1985 e suas alterações).",
+            "metas_texto": "21",
+            "metas_numeros": [
+              21
+            ],
+            "meta_ids": [
+              "cpc-meta-21"
+            ]
+          },
+          {
+            "id": "cpc-topico-20",
+            "topico": "Juizados Especiais Cíveis e Criminais (Lei nº 9.099/1995 e suas alterações).",
+            "metas_texto": "21",
+            "metas_numeros": [
+              21
+            ],
+            "meta_ids": [
+              "cpc-meta-21"
+            ]
+          },
+          {
+            "id": "cpc-topico-21",
+            "topico": "Mandado de segurança individual e coletivo.",
+            "metas_texto": "21",
+            "metas_numeros": [
+              21
+            ],
+            "meta_ids": [
+              "cpc-meta-21"
+            ]
+          },
+          {
+            "id": "cpc-topico-22",
+            "topico": "Lei nº 13.140/2015 (Mediação).",
+            "metas_texto": "21",
+            "metas_numeros": [
+              21
+            ],
+            "meta_ids": [
+              "cpc-meta-21"
+            ]
+          }
+        ]
+      },
+      {
+        "sigla": "DT",
+        "nome": "DIREITO DO TRABALHO",
+        "topicos": [
+          {
+            "id": "dt-topico-1",
+            "topico": "Dos direitos constitucionais dos trabalhadores (artigo 7º da Constituição Federal de 1988).",
+            "metas_texto": "2",
+            "metas_numeros": [
+              2
+            ],
+            "meta_ids": [
+              "dt-meta-2"
+            ]
+          },
+          {
+            "id": "dt-topico-2",
+            "topico": "Da relação de trabalho e da relação de emprego: requisitos e distinção; relações de trabalho lato sensu: trabalho autônomo, trabalho eventual, trabalho temporário e trabalho avulso.",
+            "metas_texto": "3",
+            "metas_numeros": [
+              3
+            ],
+            "meta_ids": [
+              "dt-meta-3"
+            ]
+          },
+          {
+            "id": "dt-topico-3",
+            "topico": "Dos sujeitos do contrato de trabalho stricto sensu: do empregado e do empregador: conceito e caracterização; dos poderes do empregador no contrato de trabalho. Do grupo econômico; da sucessão de empregadores; da responsabilidade solidária e subsidiária.",
+            "metas_texto": "3",
+            "metas_numeros": [
+              3
+            ],
+            "meta_ids": [
+              "dt-meta-3"
+            ]
+          },
+          {
+            "id": "dt-topico-4",
+            "topico": "Do contrato individual de trabalho: conceito, classificação e características. Trabalho intermitente: regramento legal; características; peculiaridades.",
+            "metas_texto": "4",
+            "metas_numeros": [
+              4
+            ],
+            "meta_ids": [
+              "dt-meta-4"
+            ]
+          },
+          {
+            "id": "dt-topico-5",
+            "topico": "Da alteração do contrato de trabalho: alteração unilateral e bilateral; o jus variandi.",
+            "metas_texto": "6",
+            "metas_numeros": [
+              6
+            ],
+            "meta_ids": [
+              "dt-meta-6"
+            ]
+          },
+          {
+            "id": "dt-topico-6",
+            "topico": "Da suspensão e interrupção do contrato de trabalho: caracterização e distinção.",
+            "metas_texto": "6",
+            "metas_numeros": [
+              6
+            ],
+            "meta_ids": [
+              "dt-meta-6"
+            ]
+          },
+          {
+            "id": "dt-topico-7",
+            "topico": "Da rescisão do contrato de trabalho: das justas causas; da despedida indireta; da dispensa arbitrária; da rescisão por acordo mútuo; da despedida coletiva; da culpa recíproca; da indenização.",
+            "metas_texto": "7",
+            "metas_numeros": [
+              7
+            ],
+            "meta_ids": [
+              "dt-meta-7"
+            ]
+          },
+          {
+            "id": "dt-topico-8",
+            "topico": "Do aviso prévio. Prazo do aviso prévio.",
+            "metas_texto": "8",
+            "metas_numeros": [
+              8
+            ],
+            "meta_ids": [
+              "dt-meta-8"
+            ]
+          },
+          {
+            "id": "dt-topico-9",
+            "topico": "Da estabilidade e das garantias provisórias de emprego: das formas de estabilidade; da despedida e da reintegração de empregado estável.",
+            "metas_texto": "10",
+            "metas_numeros": [
+              10
+            ],
+            "meta_ids": [
+              "dt-meta-10"
+            ]
+          },
+          {
+            "id": "dt-topico-10",
+            "topico": "Da duração do trabalho; da jornada de trabalho; dos períodos de descanso; do intervalo para repouso e alimentação; do descanso semanal remunerado; do trabalho noturno e do trabalho extraordinário; do sistema de compensação de horas.",
+            "metas_texto": "11",
+            "metas_numeros": [
+              11
+            ],
+            "meta_ids": [
+              "dt-meta-11"
+            ]
+          },
+          {
+            "id": "dt-topico-11",
+            "topico": "Do teletrabalho (Lei nº 13.467/2017).",
+            "metas_texto": "12",
+            "metas_numeros": [
+              12
+            ],
+            "meta_ids": [
+              "dt-meta-12"
+            ]
+          },
+          {
+            "id": "dt-topico-12",
+            "topico": "Das férias: do direito a férias e da sua duração; da concessão e da época das férias; da remuneração e do abono de férias.",
+            "metas_texto": "12",
+            "metas_numeros": [
+              12
+            ],
+            "meta_ids": [
+              "dt-meta-12"
+            ]
+          },
+          {
+            "id": "dt-topico-13",
+            "topico": "Do salário e da remuneração: conceito e distinções; composição do salário; modalidades de salário; formas e meios de pagamento do salário; 13º salário. Da equiparação salarial: hipóteses ensejadoras e forma de aferição; do princípio da igualdade de salário; do desvio de função. Do salário mínimo: irredutibilidade e garantia.",
+            "metas_texto": "14 e 15",
+            "metas_numeros": [
+              14,
+              15
+            ],
+            "meta_ids": [
+              "dt-meta-14",
+              "dt-meta-15"
+            ]
+          },
+          {
+            "id": "dt-topico-14",
+            "topico": "Da segurança e medicina no trabalho: da CIPA; das atividades insalubres ou perigosas.",
+            "metas_texto": "15",
+            "metas_numeros": [
+              15
+            ],
+            "meta_ids": [
+              "dt-meta-15"
+            ]
+          },
+          {
+            "id": "dt-topico-15",
+            "topico": "Do Fundo de Garantia do Tempo de Serviço (FGTS).",
+            "metas_texto": "16",
+            "metas_numeros": [
+              16
+            ],
+            "meta_ids": [
+              "dt-meta-16"
+            ]
+          },
+          {
+            "id": "dt-topico-16",
+            "topico": "Do direito coletivo do trabalho: da liberdade sindical (Convenção nº 87 da OIT); da organização sindical: conceito de categoria; categoria diferenciada; das convenções e dos acordos coletivos de trabalho.",
+            "metas_texto": "17",
+            "metas_numeros": [
+              17
+            ],
+            "meta_ids": [
+              "dt-meta-17"
+            ]
+          },
+          {
+            "id": "dt-topico-17",
+            "topico": "Da prescrição e decadência.",
+            "metas_texto": "19",
+            "metas_numeros": [
+              19
+            ],
+            "meta_ids": [
+              "dt-meta-19"
+            ]
+          },
+          {
+            "id": "dt-topico-18",
+            "topico": "Da proteção ao trabalho da mulher, da gestante e do menor. Da estabilidade da gestante; da licença- maternidade.",
+            "metas_texto": "19 e 20",
+            "metas_numeros": [
+              19,
+              20
+            ],
+            "meta_ids": [
+              "dt-meta-19",
+              "dt-meta-20"
+            ]
+          },
+          {
+            "id": "dt-topico-19",
+            "topico": "Das comissões de Conciliação Prévia.",
+            "metas_texto": "20",
+            "metas_numeros": [
+              20
+            ],
+            "meta_ids": [
+              "dt-meta-20"
+            ]
+          },
+          {
+            "id": "dt-topico-20",
+            "topico": "Dano moral e material nas relações de trabalho.",
+            "metas_texto": "20",
+            "metas_numeros": [
+              20
+            ],
+            "meta_ids": [
+              "dt-meta-20"
+            ]
+          },
+          {
+            "id": "dt-topico-21",
+            "topico": "Do direito de greve; dos serviços essenciais.",
+            "metas_texto": "21",
+            "metas_numeros": [
+              21
+            ],
+            "meta_ids": [
+              "dt-meta-21"
+            ]
+          }
+        ]
+      },
+      {
+        "sigla": "DPT",
+        "nome": "DIREITO PROCESSUAL DO TRABALHO",
+        "topicos": [
+          {
+            "id": "dpt-topico-1",
+            "topico": "Da Justiça do Trabalho: organização e competência. Das Varas do Trabalho, dos Tribunais Regionais do Trabalho e do Tribunal Superior do Trabalho: jurisdição e competência. Dos serviços auxiliares da Justiça do Trabalho: das secretarias das Varas do Trabalho; dos distribuidores; dos oficiais de justiça avaliadores. Dos Peritos Judiciais: responsabilidade pelos honorários periciais, Gratuidade de Justiça.",
+            "metas_texto": "1",
+            "metas_numeros": [
+              1
+            ],
+            "meta_ids": [
+              "dpt-meta-1"
+            ]
+          },
+          {
+            "id": "dpt-topico-2",
+            "topico": "Do Ministério Público do Trabalho: organização.",
+            "metas_texto": "2",
+            "metas_numeros": [
+              2
+            ],
+            "meta_ids": [
+              "dpt-meta-2"
+            ]
+          },
+          {
+            "id": "dpt-topico-3",
+            "topico": "Do processo judiciário do trabalho: princípios gerais do processo trabalhista (aplicação subsidiária do CPC).",
+            "metas_texto": "3",
+            "metas_numeros": [
+              3
+            ],
+            "meta_ids": [
+              "dpt-meta-3"
+            ]
+          },
+          {
+            "id": "dpt-topico-4",
+            "topico": "Dos atos, termos e prazos processuais. Da distribuição.",
+            "metas_texto": "4",
+            "metas_numeros": [
+              4
+            ],
+            "meta_ids": [
+              "dpt-meta-4"
+            ]
+          },
+          {
+            "id": "dpt-topico-5",
+            "topico": "Do valor da causa no Processo do Trabalho; Das custas e emolumentos. Custas e emolumentos para a Fazenda Pública. Hipóteses de isenção.",
+            "metas_texto": "4",
+            "metas_numeros": [
+              4
+            ],
+            "meta_ids": [
+              "dpt-meta-4"
+            ]
+          },
+          {
+            "id": "dpt-topico-6",
+            "topico": "Das partes e procuradores; do jus postulandi; da substituição e representação processuais. Da representação da massa falida e das empresas em Recuperação judicial. Do litisconsórcio no Processo do Trabalho; da assistência judiciária; dos honorários de advogado: sucumbenciais e honorários contratados.",
+            "metas_texto": "6",
+            "metas_numeros": [
+              6
+            ],
+            "meta_ids": [
+              "dpt-meta-6"
+            ]
+          },
+          {
+            "id": "dpt-topico-7",
+            "topico": "Das nulidades e das exceções: hipóteses ensejadoras, prazo e forma de arguição.",
+            "metas_texto": "7",
+            "metas_numeros": [
+              7
+            ],
+            "meta_ids": [
+              "dpt-meta-7"
+            ]
+          },
+          {
+            "id": "dpt-topico-8",
+            "topico": "Das audiências: de conciliação, de instrução e de julgamento; da notificação das partes; do arquivamento do processo; da revelia e confissão.",
+            "metas_texto": "7 e 10",
+            "metas_numeros": [
+              7,
+              10
+            ],
+            "meta_ids": [
+              "dpt-meta-7",
+              "dpt-meta-10"
+            ]
+          },
+          {
+            "id": "dpt-topico-9",
+            "topico": "Das provas.",
+            "metas_texto": "8",
+            "metas_numeros": [
+              8
+            ],
+            "meta_ids": [
+              "dpt-meta-8"
+            ]
+          },
+          {
+            "id": "dpt-topico-10",
+            "topico": "Da sentença e da coisa julgada; da liquidação da sentença: por cálculo, por artigos e por arbitramento.",
+            "metas_texto": "8 e 12",
+            "metas_numeros": [
+              8,
+              12
+            ],
+            "meta_ids": [
+              "dpt-meta-8",
+              "dpt-meta-12"
+            ]
+          },
+          {
+            "id": "dpt-topico-11",
+            "topico": "Dos dissídios individuais: da forma de reclamação e notificação; da reclamação escrita e verbal; da legitimidade para ajuizar. Do procedimento ordinário e sumaríssimo.",
+            "metas_texto": "10",
+            "metas_numeros": [
+              10
+            ],
+            "meta_ids": [
+              "dpt-meta-10"
+            ]
+          },
+          {
+            "id": "dpt-topico-12",
+            "topico": "Do Incidente de Desconsideração da Personalidade Jurídica.",
+            "metas_texto": "11",
+            "metas_numeros": [
+              11
+            ],
+            "meta_ids": [
+              "dpt-meta-11"
+            ]
+          },
+          {
+            "id": "dpt-topico-13",
+            "topico": "Dos procedimentos especiais: inquérito para apuração de falta grave, ação rescisória e mandado de segurança. Da ação civil pública.",
+            "metas_texto": "11",
+            "metas_numeros": [
+              11
+            ],
+            "meta_ids": [
+              "dpt-meta-11"
+            ]
+          },
+          {
+            "id": "dpt-topico-14",
+            "topico": "Dos dissídios coletivos: extensão, cumprimento e revisão da sentença normativa.",
+            "metas_texto": "11",
+            "metas_numeros": [
+              11
+            ],
+            "meta_ids": [
+              "dpt-meta-11"
+            ]
+          },
+          {
+            "id": "dpt-topico-15",
+            "topico": "Da execução: execução provisória; execução por prestações sucessivas; execução contra a Fazenda Pública; execução contra a massa falida. Da citação; do depósito da condenação e da nomeação de bens. Garantias na execução. Seguro-fiança e seguro-garantia; do mandado e da penhora; dos bens penhoráveis e impenhoráveis; da impenhorabilidade do bem de família (Lei nº 8.009/1990 e alterações). Dos embargos à execução; da impugnação à sentença; dos embargos de terceiros. Da praça e leilão; da arrematação; das custas na execução. Prescrição e decadência. Prescrição intercorrente.",
+            "metas_texto": "12",
+            "metas_numeros": [
+              12
+            ],
+            "meta_ids": [
+              "dpt-meta-12"
+            ]
+          },
+          {
+            "id": "dpt-topico-16",
+            "topico": "Dos recursos no processo do trabalho.",
+            "metas_texto": "14 e 15",
+            "metas_numeros": [
+              14,
+              15
+            ],
+            "meta_ids": [
+              "dpt-meta-14",
+              "dpt-meta-15"
+            ]
+          },
+          {
+            "id": "dpt-topico-17",
+            "topico": "Normas atinentes ao Processo Judicial Eletrônico.",
+            "metas_texto": "16",
+            "metas_numeros": [
+              16
+            ],
+            "meta_ids": [
+              "dpt-meta-16"
+            ]
+          }
+        ]
+      }
+    ],
+    "total_topicos": 151
+  }
+}

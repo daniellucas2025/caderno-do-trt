@@ -1,0 +1,21 @@
+{
+  "name": "CADERNO DO TRT • Central dos Tribunais",
+  "short_name": "Caderno TRT",
+  "description": "Plataforma Central de Metas, Acompanhamento e Cadernos de Estudos dos Tribunais Regionais do Trabalho",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#090a0f",
+  "theme_color": "#090a0f",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

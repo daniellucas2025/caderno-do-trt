@@ -32,9 +32,12 @@ caderno-do-trt/
 |:---|:---:|:---:|:---:|:---:|:---:|
 | **TRT-04** | Rio Grande do Sul | FCC | ✅ Concluído (100%) | 177 Metas (10 Matérias) • TJAA & AJAJ | [Acessar Plataforma](https://daniellucas2025.github.io/metas-trt4/) |
 | **TRT-05** | Bahia | FCC | ✅ Instalado | 177 Metas • TJAA & AJAJ | [Abrir Localmente](TRT-05-BA/Plataforma/index.html) |
-| **TRT-06** | Pernambuco | FCC | ⏳ Em Planejamento | — | — |
-| **TRT-08** | Pará / Amapá | Cebraspe | ⏳ Em Planejamento | — | — |
+| **TRT-06** | Pernambuco | FCC | ✅ Instalado | 177 Metas • TJAA & AJAJ | [Abrir Localmente](TRT-06-PE/Plataforma/index.html) |
+| **TRT-08** | Pará e Amapá | Cebraspe | ✅ Instalado | 177 Metas • TJAA & AJAJ | [Abrir Localmente](TRT-08-PA/Plataforma/index.html) |
 | **TRT-07** | Ceará | FCC | ✅ Instalado | 177 Metas • TJAA & AJAJ | [Abrir Localmente](TRT-07-CE/Plataforma/index.html) |
+| **TRT-12** | Santa Catarina | FCC | ✅ Instalado | 177 Metas • TJAA & AJAJ | [Abrir Localmente](TRT-12-SC/Plataforma/index.html) |
+| **TRT-15** | Campinas e Interior SP | FCC | ✅ Instalado | 177 Metas • TJAA & AJAJ | [Abrir Localmente](TRT-15-SP/Plataforma/index.html) |
+| **TRT-02** | São Paulo e Litoral | FCC | ✅ Instalado | 177 Metas • TJAA & AJAJ | [Abrir Localmente](TRT-02-SP/Plataforma/index.html) |
 
 ---
 
